@@ -18,6 +18,10 @@ export default defineNuxtConfig({
         { rel: 'stylesheet', 
           href: 'https://fonts.googleapis.com/css2?family=Exo+2:wght@100..900&family=Quicksand:wght@300..700&display=swap'
         },
+        {
+          rel: 'stylesheet',
+          href: 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css'
+        }
       ]
     }
   }
