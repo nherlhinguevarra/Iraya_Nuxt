@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <div class="px-6 max-w-screen-xl mx-auto">
+    <div class="font-exo2">
       <NuxtPage /> <!-- This renders your blog page content -->
     </div>
   </div>
