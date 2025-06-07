@@ -440,7 +440,7 @@
         <div class="w-1/2 text-center p-10 rounded-bl-[60px] rounded-tr-[60px] shadow-[0_10px_40px_rgba(245,163,105,0.3)]">
             <h1 class="text-[18px] text-[#666666BD] italic font-medium pb-5">
                 “By focusing on the human drivers within the context of desirability, 
-                feasibility, and viability, it is possible to accelerate digital 
+                feasibility, and viability, it is possible toaccelerate digital 
                 adoption and achieve tangible outcomes aligned to the needs of the organization.”
             </h1>
             <p class="text-[14px] text-[#F47625] font-medium italic">
@@ -475,7 +475,8 @@
             <img src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/05/prowell_v_c_r.webp" class="" alt="Large image">
         </div>
     </div>
-    <div class="h-30"></div>
+
+    <div class="h-10"></div>
     <div class="flex w-[100%] mx-auto gap-20">
         <div class="w-1/2">
             <div class="py-10 pl-60">
