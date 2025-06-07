@@ -75,8 +75,8 @@
                             style="border-top: 4px solid #F47734;"
                         >
                             <ul class="py-2 text-sm text-black-700">
-                                <li><NuxtLink to="/products/data-atelier" class="block px-4 py-2 hover:bg-gray-100">Data Factory</NuxtLink></li>
-                                <li><NuxtLink to="/products/elasticdocs" class="block px-4 py-2 hover:bg-gray-100">Knowledge Workflows</NuxtLink></li>
+                                <li><NuxtLink to="/data-factory" class="block px-4 py-2 hover:bg-gray-100">Data Factory</NuxtLink></li>
+                                <li><NuxtLink to="/knowledge-workflows" class="block px-4 py-2 hover:bg-gray-100">Knowledge Workflows</NuxtLink></li>
                             </ul>
                         </div>
                     </div>

@@ -15,7 +15,7 @@ module.exports = {
         orange: {
           500: '#F47625',
         },
-        bluegreen: {
+        bg: {
           500: '#2D918C',
         },
         lightgray: {
