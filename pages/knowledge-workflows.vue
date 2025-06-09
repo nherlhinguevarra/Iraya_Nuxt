@@ -1,7 +1,8 @@
 <template>
     <div class="relative w-screen h-screen max-w-full">
     <!-- Fixed background image -->
-        <div class="absolute inset-0 bg-[url('https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/06/IRAYA-BACKGROUND.webp')] bg-cover bg-top bg-no-repeat bg-fixed z-0"></div>
+        <div class="absolute inset-0 bg-[url('https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/06/IRAYA-BACKGROUND.webp')] 
+        bg-cover bg-top bg-no-repeat bg-fixed z-0"></div>
 
         <div class="relative z-10 flex w-full h-full">
             <div class="w-1/4 mt-20 ml-50 pt-[6.5rem]">

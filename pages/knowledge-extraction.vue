@@ -1,7 +1,8 @@
 <template>
     <div class="relative w-screen max-w-full">
     <!-- Fixed background image -->
-        <div class="absolute inset-0 bg-[url('https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/06/IRAYA-BACKGROUND.webp')] bg-cover bg-top bg-no-repeat bg-fixed z-0"></div>
+        <div class="absolute inset-0 bg-[url('https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/06/IRAYA-BACKGROUND.webp')] 
+        bg-cover bg-top bg-no-repeat bg-fixed z-0"></div>
 
         <div class="relative z-10 flex w-full h-full">
             <div class="w-1/4 mt-20 ml-30 pt-[6.5rem]">
@@ -14,8 +15,8 @@
                 </ul>
             </div>
             <div class="w-3/4 mt-20 p-4">
-                <h1 class="text-[#535353] text-5xl leading-[3.75rem] mb-3 pr-40">
-                    <span class="text-[#666666]">Realize the</span>
+                <h1 class="text-[#535353] text-5xl leading-[3.75rem] mb-8 pr-40">
+                    <span class="text-[#666666]">Realize the </span>
                     <span class="text-[#F47625] font-bold">potential</span> 
                     of your <span class="text-[#2D918C] font-bold">unstructured data</span> 
                     with <span class="font-bold">KNOWLEDGE EXTRACTION</span>
@@ -23,12 +24,10 @@
                 <p class="text-[#666666] text-base font-normal pr-44 mb-2">
                     The data digestion provides easy access to information in a fast and efficient fashion; it is orders of 
                     magnitude faster than current manual approaches.
-                    <br>
-                    <br>
+                    <br><br>
                     The digitization process makes it possible obtain new knowledge and in-sights that is very difficult 
                     or even impossible to achieve using unstructured data in its existing format.
-                    <br>
-                    <br>
+                    <br><br>
                     The knowledge extraction is done through many types of higher order analysis. Examples are:
                 </p>
                 <ul class="text-[#666666] text-base font-normal list-disc ml-10 mb-6 pr-44">

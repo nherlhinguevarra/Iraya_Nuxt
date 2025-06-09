@@ -1,7 +1,8 @@
 <template>
     <div class="relative w-screen max-w-full">
     <!-- Fixed background image -->
-        <div class="absolute inset-0 bg-[url('https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/06/IRAYA-BACKGROUND.webp')] bg-cover bg-top bg-no-repeat bg-fixed z-0"></div>
+        <div class="absolute inset-0 bg-[url('https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/06/IRAYA-BACKGROUND.webp')] 
+        bg-cover bg-top bg-no-repeat bg-fixed z-0"></div>
 
         <div class="relative z-10 flex w-full h-full">
             <div class="w-1/4 mt-20 ml-30 pt-[6.5rem]">
@@ -22,8 +23,7 @@
                 <h2 class="text-[#F47625] text-3xl font-bold mb-5">DATA DIGESTION</h2>
                 <p class="text-[#666666] text-base font-normal pr-44 mb-2">
                    The ingested documents are available as information for review.
-                   <br>
-                   <br>
+                   <br><br>
                    There are four ways to review the information in the ElasticDocs Intuitive Knowledge Container: 
                 </p>
                 <ul class="text-[#666666] text-base font-normal list-disc ml-10 mb-6 pr-44">
