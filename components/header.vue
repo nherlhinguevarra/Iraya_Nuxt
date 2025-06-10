@@ -9,7 +9,7 @@
             />
 
             <!-- Right: Hamburger (Mobile) and Desktop Nav -->
-            <div class="flex items-center space-x-6">
+            <div class="flex items-center space-x-0 lg:space-x-6">
                 <!-- Hamburger (Mobile) -->
                 <button @click="toggleMenu" class="md:hidden text-[#F47734] focus:outline-none">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
