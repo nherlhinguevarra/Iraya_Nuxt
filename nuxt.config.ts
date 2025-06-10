@@ -14,6 +14,12 @@ export default defineNuxtConfig({
 
   app: {
     head: {
+      meta: [
+        {
+          name: 'vieport',
+          content: 'width=device-width, initial-scale=1.0',
+        }
+      ],
       link: [
         { rel: 'stylesheet', 
           href: 'https://fonts.googleapis.com/css2?family=Exo+2:wght@100..900&family=Quicksand:wght@300..700&display=swap'

@@ -95,8 +95,8 @@
                             style="border-top: 4px solid #F47734;"
                         >
                             <ul class="py-2 text-sm text-black-700">
-                                <li><NuxtLink to="/products/data-atelier" class="block px-4 py-2 hover:bg-gray-100">Value Proposition</NuxtLink></li>
-                                <li><NuxtLink to="/products/elasticdocs" class="block px-4 py-2 hover:bg-gray-100">People</NuxtLink></li>
+                                <li><NuxtLink to="/value-proposition" class="block px-4 py-2 hover:bg-gray-100">Value Proposition</NuxtLink></li>
+                                <li><NuxtLink to="/people" class="block px-4 py-2 hover:bg-gray-100">People</NuxtLink></li>
                                 <li><NuxtLink to="/products/data-atelier" class="block px-4 py-2 hover:bg-gray-100">Partners</NuxtLink></li>
                                 <li><NuxtLink to="/products/elasticdocs" class="block px-4 py-2 hover:bg-gray-100">Contact Us</NuxtLink></li>
                             </ul>
