@@ -1,6 +1,6 @@
 <template>
     <footer class="bg-[#F3F3F3] w-full">
-        <div class="w-[100%] lg:w-[90%] xl:w-[60%] mx-auto">
+        <div class="w-[100%] lg:w-[90%] xl:w-[60%] mx-auto px-5">
             <div class="flex flex-col px-5 sm:px-0 sm:flex-row">
                 <div class="lg:w-1/2 pt-12">
                     <img src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/05/updatedIrayaLogo.webp" class="w-[220px] mx-auto lg:ml-0">
