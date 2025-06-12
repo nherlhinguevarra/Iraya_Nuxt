@@ -35,7 +35,7 @@
                     <div class="group relative md:relative" @click="toggleDropdown('products')">
                         <div class="flex items-center justify-between cursor-pointer py-1 md:justify-start hover:[color:#F47734]">
                             <span>Products</span>
-                            <i class="bi bi-chevron-down text-xs ml-2"></i>
+                            <i class="fa-solid fa-chevron-down text-xs ml-2 mt-1"></i>
                         </div>
 
                         <div class="w-full md:w-40 bg-white shadow-lg transition-opacity duration-300 z-50 md:absolute md:left-0 md:right-auto md:opacity-0 md:invisible md:group-hover:opacity-100 md:group-hover:visible"
@@ -65,7 +65,7 @@
                     <div class="group relative md:relative" @click="toggleDropdown('services')">
                         <div class="flex items-center justify-between cursor-pointer py-1 md:justify-start hover:[color:#F47734]">
                             <span>Services</span>
-                            <i class="bi bi-chevron-down text-xs ml-2"></i>
+                            <i class="fa-solid fa-chevron-down text-xs ml-2 mt-1"></i>
                         </div>
                         <div class="w-full md:w-40 bg-white shadow-lg transition-opacity duration-300 z-50 md:absolute md:left-0 md:right-auto md:opacity-0 md:invisible md:group-hover:opacity-100 md:group-hover:visible"
                             :class="[
@@ -85,7 +85,7 @@
                     <div class="group relative md:relative" @click="toggleDropdown('about')">
                         <div class="flex items-center justify-between cursor-pointer py-1 md:justify-start hover:[color:#F47734]">
                             <span>About</span>
-                            <i class="bi bi-chevron-down text-xs ml-2"></i>
+                            <i class="fa-solid fa-chevron-down text-xs ml-2 mt-1"></i>
                         </div>
                         <div class="w-full md:w-40 bg-white shadow-lg transition-opacity duration-300 z-50 md:absolute md:left-0 md:right-auto md:opacity-0 md:invisible md:group-hover:opacity-100 md:group-hover:visible"
                             :class="[
@@ -107,7 +107,7 @@
                     <div class="group relative md:relative" @click="toggleDropdown('resources')">
                         <div class="flex items-center justify-between cursor-pointer py-1 md:justify-start hover:[color:#F47734]">
                             <span>Resources</span>
-                            <i class="bi bi-chevron-down text-xs ml-2"></i>
+                            <i class="fa-solid fa-chevron-down text-xs ml-2 mt-1"></i>
                         </div>
                         <div class="w-full md:w-40 bg-white shadow-lg transition-opacity duration-300 z-50 md:absolute md:left-0 md:right-auto md:opacity-0 md:invisible md:group-hover:opacity-100 md:group-hover:visible"
                             :class="[
