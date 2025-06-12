@@ -2,7 +2,7 @@
     <div class="mx-auto my-auto earth 
                 w-[380px] h-[380px] 
                 md:w-[400px] md:h-[400px] 
-                lg:w-[600px] lg:h-[600px] 
+                lg:w-[590px] lg:h-[590px] 
                 xl:w-[800px] xl:h-[800px]">
     </div>
 </template>
