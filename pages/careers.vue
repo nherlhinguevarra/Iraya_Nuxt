@@ -92,11 +92,12 @@
                 </div>
 
                 <!-- LOWER GRID -->
-                <div class="columns-1 lg:columns-2 gap-5 bg-white">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 auto-rows-[30px]"> 
+                    
                     <!-- GEOSCIENCE DOMAIN EXPERTS -->
-                    <div class="mb-4 break-inside-avoid shadow-[0_0_15px_rgba(0,0,0,0.25)] max-h-sm rounded-[60px] p-12">
+                    <div class="box-border row-span-13 mb-4 shadow-[0_0_15px_rgba(0,0,0,0.25)] max-h-sm rounded-[60px] p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12">
                         <img src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/06/undraw_mathematics_4otb.webp"
-                        class="max-w-[400px] mx-auto w-full"
+                        class="max-w-[375px] mx-auto w-full"
                         alt="">
                         <h3 class="font-bold text-[#535353] text-2xl mb-3">GEOSCIENCE DOMAIN EXPERTS</h3>
                         <h6 class="font-semibold text-[#535353] text-base mb-3">Petrophysicist and/or Rock Physicist with 5-10 years of experience:</h6>
@@ -104,8 +105,9 @@
                             <li>Bachelor's or Master's degree in Data Science, Mathematics, Engineering, Computer Science, or in any other discipline</li>
                         </ul>
                     </div>
+                    
                     <!-- FRONT-END DEVELOPER -->
-                    <div class="mb-4 break-inside-avoid shadow-[0_0_15px_rgba(0,0,0,0.25)] rounded-[60px] p-12">
+                    <div class="box-border row-span-17 mb-4 shadow-[0_0_15px_rgba(0,0,0,0.25)] rounded-[60px] p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12">
                         <h3 class="mb-3 font-bold text-[#535353] text-2xl">FRONT-END DEVELOPER</h3>
                         <h6 class="font-semibold text-[#535353] text-base mb-3">Responsibilities:</h6>
                         <ul class="font-medium text-sm text-[#535353] list-disc ml-10 mb-5">
@@ -130,8 +132,9 @@
                         class="max-w-[400px] mx-auto w-full"
                         alt="">
                     </div>
+                    
                     <!-- MACHINE LEARNING SPECIALISTS AND DATA SCIENTISTS -->
-                    <div class="mb-4 break-inside-avoid shadow-[0_0_15px_rgba(0,0,0,0.25)] rounded-[60px] p-12">
+                    <div class="box-border row-span-16 mb-4 shadow-[0_0_15px_rgba(0,0,0,0.25)] rounded-[60px] p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12">
                         <h3 class="mb-3 font-bold text-[#535353] text-2xl">MACHINE LEARNING SPECIALISTS AND DATA SCIENTISTS</h3>
                         <h6 class="font-semibold text-[#535353] text-base mb-3">Responsibilities:</h6>
                         <ul class="font-medium text-sm text-[#535353] list-disc ml-10 mb-5">
@@ -153,10 +156,11 @@
                         class="max-w-[400px] mx-auto w-full"
                         alt="">
                     </div>
+                    
                     <!-- BUSINESS MANAGER - TECHNICAL -->
-                    <div class="mb-4 break-inside-avoid shadow-[0_0_15px_rgba(0,0,0,0.25)] rounded-[60px] p-12">
+                    <div class="box-border row-span-17 mb-4 shadow-[0_0_15px_rgba(0,0,0,0.25)] rounded-[60px] p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12">
                         <img src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/06/undraw_Revenue_re_2bmg.webp"
-                        class="max-w-[400px] mx-auto w-full"
+                        class="max-w-[375px] mx-auto w-full"
                         alt="">
                         <h3 class="font-bold text-[#535353] text-2xl mb-3">BUSINESS MANAGER - TECHNICAL SALES</h3>
                         <h6 class="font-semibold text-[#535353] text-base mb-3">Responsibilities:</h6>
@@ -173,8 +177,9 @@
                             <li>Minimum 5 years of experience in E&P workflows</li>
                         </ul>
                     </div>
+                    
                     <!-- ELASTICDOCS ENGINEERS/BACKEND DEVELOPERS (JUNIOR & SENIOR) -->
-                    <div class="mb-4 break-inside-avoid shadow-[0_0_15px_rgba(0,0,0,0.25)] rounded-[60px] p-12">
+                    <div class="row-span-21 mb-4 shadow-[0_0_15px_rgba(0,0,0,0.25)] rounded-[60px] p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12">
                         <img src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/06/undraw_Programmer_re_owql.webp"
                         class="max-w-[400px] mx-auto w-full"
                         alt="">
@@ -200,17 +205,9 @@
                             <ul class="font-medium text-sm text-[#535353] list-disc ml-10">
                                 <li>Familiarity with DevOps practices</li>
                             </ul>
-                               
                         </ul>
                     </div>
-                    
-                    
-
-                    
                 </div>
-
-
-
             </div>
         </div>
     </div>
