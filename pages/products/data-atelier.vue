@@ -116,14 +116,14 @@
                 </p>
             </div>
             <div class="lg:w-1/2 shadow-[0_10px_40px_rgba(0,0,0,0.3)]">
-                <img src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/05/DA1-1.png" class="w-full">
+                <img src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/05/DA2-1.png" class="w-full">
                 <p class="text-[15px] text-[#535353] p-4">
                     Be equipped with all the knowledge and experiences from all your documents 
                     made accessible and integrable into the way you work 
                 </p>
             </div>
             <div class="lg:w-1/2 shadow-[0_10px_40px_rgba(0,0,0,0.3)]">
-                <img src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/05/DA1-1.png" class="w-full">
+                <img src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/05/DA3-1.png" class="w-full">
                 <p class="text-[15px] text-[#535353] p-4">
                     Unlocking the information from facillities are significant to energy 
                     transition and bringing energy to the market
