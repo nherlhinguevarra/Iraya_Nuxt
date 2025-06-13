@@ -2,7 +2,7 @@
     <div class="px-2 lg:px-5 xl:px-0">
 
         <div class="w-[95%] lg:w-[95%] xl:w-[80%] mx-auto flex flex-col sm:flex-row mt-10">
-            <div class="lg:w-2/4 mt-10 lg:mt-25 xl:mt-40 pl-0 lg:pl-0 xl:pl-[5rem]">
+            <div class="lg:w-2/4 mt-0 lg:mt-25 xl:mt-40 pl-0 lg:pl-0 xl:pl-[5rem]">
                 <h1 class="text-[20px] lg:text-[35px] xl:text-[56px] text-[#F47625] font-light">
                     Read the Earth <span class="text-[#2D918C] font-bold"> better</span>
                 </h1>
@@ -17,7 +17,7 @@
                     READ ABOUT OUR TECHNOLOGY >
                 </h3>
             </div>
-            <div class="lg:w-3/5">
+            <div class="lg:w-3/5 py-4 lg:py-0">
                 <Earth />
             </div>
         </div>
