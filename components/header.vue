@@ -48,7 +48,7 @@
                             <ul class="py-2 text-sm text-black-700">
                                 <li><NuxtLink to="/products/data-atelier" class="block px-4 py-2 hover:bg-gray-100">Data Atelier</NuxtLink></li>
                                 <li><NuxtLink to="/products/elasticdocs" class="block px-4 py-2 hover:bg-gray-100">ElasticDocs</NuxtLink></li>
-                                <li><NuxtLink to="/products/bonaparte-400" class="block px-4 py-2 hover:bg-gray-100">Bonaparte 400</NuxtLink></li>
+                                <li><NuxtLink to="/products/bonaparte" class="block px-4 py-2 hover:bg-gray-100">Bonaparte 400</NuxtLink></li>
                                 <li><NuxtLink to="/products/ed2k" class="block px-4 py-2 hover:bg-gray-100">ED2K</NuxtLink></li>
                             </ul>
                         </div>
