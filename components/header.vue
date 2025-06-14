@@ -75,8 +75,8 @@
                             style="border-top: 4px solid #F47734;"
                         >
                             <ul class="py-2 text-sm text-black-700">
-                                <li><NuxtLink to="/data-factory" class="block px-4 py-2 hover:bg-gray-100">Data Factory</NuxtLink></li>
-                                <li><NuxtLink to="/knowledge-workflows" class="block px-4 py-2 hover:bg-gray-100">Knowledge Workflows</NuxtLink></li>
+                                <li><NuxtLink to="/services/data-factory" class="block px-4 py-2 hover:bg-gray-100">Data Factory</NuxtLink></li>
+                                <li><NuxtLink to="/services/knowledge-workflows" class="block px-4 py-2 hover:bg-gray-100">Knowledge Workflows</NuxtLink></li>
                             </ul>
                         </div>
                     </div>
@@ -95,10 +95,10 @@
                             style="border-top: 4px solid #F47734;"
                         >
                             <ul class="py-2 text-sm text-black-700">
-                                <li><NuxtLink to="/value-proposition" class="block px-4 py-2 hover:bg-gray-100">Value Proposition</NuxtLink></li>
-                                <li><NuxtLink to="/people" class="block px-4 py-2 hover:bg-gray-100">People</NuxtLink></li>
-                                <li><NuxtLink to="/partners" class="block px-4 py-2 hover:bg-gray-100">Partners</NuxtLink></li>
-                                <li><NuxtLink to="/contactus" class="block px-4 py-2 hover:bg-gray-100">Contact Us</NuxtLink></li>
+                                <li><NuxtLink to="/about-us/value-proposition" class="block px-4 py-2 hover:bg-gray-100">Value Proposition</NuxtLink></li>
+                                <li><NuxtLink to="/about-us/people" class="block px-4 py-2 hover:bg-gray-100">People</NuxtLink></li>
+                                <li><NuxtLink to="/about-us/partners" class="block px-4 py-2 hover:bg-gray-100">Partners</NuxtLink></li>
+                                <li><NuxtLink to="/about-us/contact-us" class="block px-4 py-2 hover:bg-gray-100">Contact Us</NuxtLink></li>
                             </ul>
                         </div>
                     </div>

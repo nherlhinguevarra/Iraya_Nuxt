@@ -8,8 +8,10 @@
             <div class="w-1/4 mt-20 ml-50 pt-[6.5rem]">
                 <h1 class="text-[#F47625] text-2xl mb-8 font-semibold">SERVICES</h1>
                 <ul>
-                    <li class="text-[#535353] text-base font-medium mb-1 hover:text-[#000000]">Data Factory</li>
-                    <li class="text-[#535353] text-base font-medium mb-1 hover:text-[#000000]">Knowledge Workflows</li>
+                    <li><NuxtLink to="/services/data-factory" class="text-[#535353] text-base font-medium mb-1 hover:text-[#000000]"
+                    >Data Factory</NuxtLink></li>
+                    <li><NuxtLink to="/services/knowledge-workflows" class="text-[#535353] text-base font-medium mb-1 hover:text-[#000000]"
+                    >Knowledge Workflows</NuxtLink></li>
                 </ul>
             </div>
             <div class="w-3/4 mt-20 p-4">

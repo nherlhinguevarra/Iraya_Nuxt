@@ -8,10 +8,14 @@
             <div class="w-1/4 mt-20 ml-30 pt-[6.5rem]">
                 <h1 class="text-[#F47625] text-2xl mb-8 font-semibold">WHY IRAYA?</h1>
                 <ul>
-                    <li class="text-[#535353] text-base font-medium mb-1 hover:text-[#000000]">Value Proposition</li>
-                    <li class="text-[#535353] text-base font-medium mb-1 hover:text-[#000000]">Data Ingestion</li>
-                    <li class="text-[#535353] text-base font-medium mb-1 hover:text-[#000000]">Data Digestion</li>
-                    <li class="text-[#535353] text-base font-medium mb-1 hover:text-[#000000]">Knowledge Extraction</li>
+                    <li><NuxtLink to="/about-us/value-proposition" class="text-[#535353] text-base font-medium mb-1 hover:text-[#000000]"
+                    >Value Proposition</NuxtLink></li>
+                    <li><NuxtLink to="/about-us/data-ingestion" class="text-[#535353] text-base font-medium mb-1 hover:text-[#000000]"
+                    >Data Ingestion</NuxtLink></li>
+                    <li><NuxtLink to="/about-us/data-digestion" class="text-[#535353] text-base font-medium mb-1 hover:text-[#000000]"
+                    >Data Digestion</NuxtLink></li>
+                    <li><NuxtLink to="/about-us/knowledge-extraction" class="text-[#535353] text-base font-medium mb-1 hover:text-[#000000]"
+                    >Knowledge Extraction</NuxtLink></li>
                 </ul>
             </div>
             <div class="w-3/4 mt-20 p-4">
