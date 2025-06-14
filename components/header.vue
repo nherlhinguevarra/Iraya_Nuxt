@@ -117,12 +117,12 @@
                             style="border-top: 4px solid #F47734;"
                         >
                             <ul>
-                                <li><NuxtLink to="/products/data-atelier" class="block px-4 py-2 hover:bg-gray-100">Brochure</NuxtLink></li>
-                                <li><NuxtLink to="/products/elasticdocs" class="block px-4 py-2 hover:bg-gray-100">Publications</NuxtLink></li>
-                                <li><NuxtLink to="/products/data-atelier" class="block px-4 py-2 hover:bg-gray-100">Blogs</NuxtLink></li>
-                                <li><NuxtLink to="/careers" class="block px-4 py-2 hover:bg-gray-100">Careers</NuxtLink></li>
-                                <li><NuxtLink to="/privacy-statement" class="block px-4 py-2 hover:bg-gray-100">Privacy Statement</NuxtLink></li>
-                                <li><NuxtLink to="/products/elasticdocs" class="block px-4 py-2 hover:bg-gray-100">Cookie Policy</NuxtLink></li>
+                                <li><NuxtLink to="/resources/brochure" class="block px-4 py-2 hover:bg-gray-100">Brochure</NuxtLink></li>
+                                <li><NuxtLink to="/resources/publications" class="block px-4 py-2 hover:bg-gray-100">Publications</NuxtLink></li>
+                                <li><NuxtLink to="/resources/blog" class="block px-4 py-2 hover:bg-gray-100">Blogs</NuxtLink></li>
+                                <li><NuxtLink to="/resources/careers" class="block px-4 py-2 hover:bg-gray-100">Careers</NuxtLink></li>
+                                <li><NuxtLink to="/resources/privacy-statement" class="block px-4 py-2 hover:bg-gray-100">Privacy Statement</NuxtLink></li>
+                                <li><NuxtLink to="/resources/cookie-policy" class="block px-4 py-2 hover:bg-gray-100">Cookie Policy</NuxtLink></li>
                             </ul>
                         </div>
                     </div>
