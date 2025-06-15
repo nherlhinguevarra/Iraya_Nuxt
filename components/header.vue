@@ -118,7 +118,7 @@
                         >
                             <ul>
                                 <li><NuxtLink to="/resources/brochure" class="block px-4 py-2 hover:bg-gray-100">Brochure</NuxtLink></li>
-                                <li><NuxtLink to="/resources/publications" class="block px-4 py-2 hover:bg-gray-100">Publications</NuxtLink></li>
+                                <li><NuxtLink to="/resources/publication" class="block px-4 py-2 hover:bg-gray-100">Publications</NuxtLink></li>
                                 <li><NuxtLink to="/resources/blog" class="block px-4 py-2 hover:bg-gray-100">Blogs</NuxtLink></li>
                                 <li><NuxtLink to="/resources/careers" class="block px-4 py-2 hover:bg-gray-100">Careers</NuxtLink></li>
                                 <li><NuxtLink to="/resources/privacy-statement" class="block px-4 py-2 hover:bg-gray-100">Privacy Statement</NuxtLink></li>
