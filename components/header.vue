@@ -1,12 +1,25 @@
 <template>
-    <header class="fixed top-0 left-0 right-0 z-50 bg-white py-1" style="box-shadow: 1px 0px 15px -4px rgba(0, 0, 0, 0.5);">
+    <header
+        :class="[
+            'fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-in-out',
+            isScrolled ? 'bg-white' : 'bg-transparent',
+            isScrolledUp ? 'py-2' : 'py-1'
+        ]"
+        :style="isScrolled ? 'box-shadow: 1px 0px 15px -4px rgba(0, 0, 0, 0.5);' : ''"
+    >
+
         <div class="w-full flex justify-between items-center px-4">
             <!-- Left: Logo -->
             <img
                 src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/03/Iraya-Logo_Horizontal_w-Slogan-2_110521-small-1.webp"
                 alt="iraya-logo"
-                class="h-12 w-auto"
+                :class="[
+                    'transition-all duration-300 ease-in-out',
+                    isScrolledUp ? 'h-13' : 'h-12'
+                ]"
+                class="w-auto"
             />
+
 
             <!-- Right: Hamburger (Mobile) and Desktop Nav -->
             <div class="flex items-center space-x-0 lg:space-x-6">
@@ -134,19 +147,19 @@
 </template>
 
 <script setup>
-    import { ref } from 'vue'
+    import { ref, onMounted, onBeforeUnmount } from 'vue'
 
     const isOpen = ref(false)
-    const toggleMenu = () => {
-    isOpen.value = !isOpen.value
-    }
-
     const showDropdown = ref({
     products: false,
     services: false,
     about: false,
     resources: false
     })
+
+    const toggleMenu = () => {
+    isOpen.value = !isOpen.value
+    }
 
     const toggleDropdown = (menu) => {
     if (window.innerWidth < 768) {
@@ -155,4 +168,31 @@
         }
     }
     }
+
+    // Header scroll logic
+    const isScrolled = ref(false)
+    const isScrolledUp = ref(true) // assume at top initially
+
+    let lastScroll = 0
+
+    const handleScroll = () => {
+    const currentScroll = window.scrollY
+
+    isScrolled.value = currentScroll > 0
+    isScrolledUp.value = currentScroll < lastScroll || currentScroll <= 0
+
+    lastScroll = currentScroll
+    }
+
+    onMounted(() => {
+    // ✅ Trigger scroll logic immediately to catch current scroll position
+    handleScroll()
+
+    // ✅ Add scroll event listener
+    window.addEventListener('scroll', handleScroll)
+    })
+
+    onBeforeUnmount(() => {
+    window.removeEventListener('scroll', handleScroll)
+    })
 </script>
