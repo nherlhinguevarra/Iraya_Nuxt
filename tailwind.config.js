@@ -1,5 +1,6 @@
 // tailwind.config.js
 module.exports = {
+    darkMode: 'dark', // or 'media' for system-based without class toggle
     content: [
         './components/**/*.{vue,js,ts}',
         './layouts/**/*.{vue,js,ts}',

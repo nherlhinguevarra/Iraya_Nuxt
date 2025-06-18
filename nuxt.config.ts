@@ -10,7 +10,14 @@ export default defineNuxtConfig({
         }
     },
 
-    modules: ['@nuxtjs/tailwindcss', '@nuxt/fonts'],
+    modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode'],
+
+    colorMode: {
+        classSuffix: '',       // uses .dark class
+        preference: 'system',  // default to system mode
+        fallback: 'light',     // fallback if no preference saved
+        storageKey: 'nuxt-color-mode',
+    },
 
     app: {
         head: {

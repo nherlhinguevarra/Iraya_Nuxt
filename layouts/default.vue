@@ -1,14 +1,12 @@
 <template>
-    <div>
+    <div class="font-exo2 transition-colors duration-300 min-h-screen bg-white text-black dark:bg-[#202124] dark:text-white">
         <Header />
-        <div class="font-exo2">
-            <NuxtPage /> <!-- This renders your blog page content -->
-        </div>
+        <NuxtPage />
+        <Footer />
     </div>
-    <Footer />
 </template>
 
 <script setup>
-    import Header from '~/components/header.vue'
-    import Footer from '@/components/footer.vue'
+import Header from '~/components/header.vue'
+import Footer from '@/components/footer.vue'
 </script>
