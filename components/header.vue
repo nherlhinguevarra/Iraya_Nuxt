@@ -32,22 +32,22 @@
 
                 <!-- Shared Navigation (hidden on mobile unless toggled) -->
                 <nav
-                :class="[
-                    'text-[15px] font-semibold',
-                    isOpen ? 'block md:flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6' : 'hidden md:flex md:space-x-6'
-                ]"
-                class="absolute md:static top-full left-0 w-full md:w-auto bg-white md:bg-transparent px-6 md:px-0 py-2 md:py-0 z-40"
+                    :class="[
+                        'text-[15px] font-semibold',
+                        isOpen ? 'block md:flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6' : 'hidden md:flex md:space-x-6'
+                    ]"
+                    class="absolute md:static top-full left-0 w-full md:w-auto bg-white dark:bg-[#202124] md:bg-transparent px-6 md:px-0 py-2 md:py-0 z-40 mt-[-2px]"
                 >
 
                     <!-- Navigation Links -->
                     <div class="py-1">
-                        <NuxtLink to="/" :class="[ $route.path === '/' ? 'text-[#F47734]' : 'text-black dark:text-white', 'hover:text-[#F47734]' ]">Home</NuxtLink>
+                        <NuxtLink to="/" :class="[ $route.path === '/' ? 'text-[#F47734]' : 'text-black dark:text-[#C8CCD2]', 'hover:text-[#F47734]' ]">Home</NuxtLink>
                     </div>
 
                     <!-- Products Dropdown -->
                     <div class="group relative md:relative" @click="toggleDropdown('products')">
                         <div class="flex items-center justify-between cursor-pointer py-1 md:justify-start hover:[color:#F47734]">
-                            <NuxtLink to="/products/data-atelier" :class="[ $route.path === '/products/data-atelier' ? 'text-[#F47734]' : 'text-black dark:text-white', 'hover:text-[#F47734]' ]">Products</NuxtLink>
+                            <NuxtLink to="/products/data-atelier" :class="[ $route.path === '/products/data-atelier' ? 'text-[#F47734]' : 'text-black dark:text-[#C8CCD2]', 'hover:text-[#F47734]' ]">Products</NuxtLink>
                             <i class="fa-solid fa-chevron-down text-xs ml-2 mt-1"></i>
                         </div>
 
@@ -58,26 +58,26 @@
                             ]"
                             style="border-top: 4px solid #F47734;"
                         >
-                            <ul class="py-2 text-sm text-black-700">
-                                <li><NuxtLink to="/products/data-atelier" :class="[ $route.path === '/products/data-atelier' ? 'text-[#F47734]' : 'text-black', 'hover:bg-gray-100 block px-4 py-2']">Data Atelier</NuxtLink></li>
-                                <li><NuxtLink to="/products/elasticdocs" :class="[ $route.path === '/products/elasticdocs' ? 'text-[#F47734]' : 'text-black', 'hover:bg-gray-100 block px-4 py-2']">ElasticDocs</NuxtLink></li>
-                                <li><NuxtLink to="/products/bonaparte" :class="[ $route.path === '/products/bonaparte' ? 'text-[#F47734]' : 'text-black', 'hover:bg-gray-100 block px-4 py-2']">Bonaparte 400</NuxtLink></li>
-                                <li><NuxtLink to="/products/ed2k" :class="[ $route.path === '/products/ed2k' ? 'text-[#F47734]' : 'text-black', 'hover:bg-gray-100 block px-4 py-2']">ED2K</NuxtLink></li>
+                            <ul class="py-2 text-sm text-black-700 dark:bg-[#202124]">
+                                <li><NuxtLink to="/products/data-atelier" :class="[ $route.path === '/products/data-atelier' ? 'text-[#F47734]' : 'text-black dark:text-[#C8CCD2] ', 'hover:bg-gray-100 block px-4 py-2']">Data Atelier</NuxtLink></li>
+                                <li><NuxtLink to="/products/elasticdocs" :class="[ $route.path === '/products/elasticdocs' ? 'text-[#F47734]' : 'text-black dark:text-[#C8CCD2] ', 'hover:bg-gray-100 block px-4 py-2']">ElasticDocs</NuxtLink></li>
+                                <li><NuxtLink to="/products/bonaparte" :class="[ $route.path === '/products/bonaparte' ? 'text-[#F47734]' : 'text-black dark:text-[#C8CCD2] ', 'hover:bg-gray-100 block px-4 py-2']">Bonaparte 400</NuxtLink></li>
+                                <li><NuxtLink to="/products/ed2k" :class="[ $route.path === '/products/ed2k' ? 'text-[#F47734]' : 'text-black dark:text-[#C8CCD2] ', 'hover:bg-gray-100 block px-4 py-2']">ED2K</NuxtLink></li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="py-1">
-                        <NuxtLink to="/demo" :class="[ $route.path === '/demo' ? 'text-[#F47734]' : 'text-black dark:text-white', 'hover:text-[#F47734]' ]">Demo</NuxtLink>
+                        <NuxtLink to="/demo" :class="[ $route.path === '/demo' ? 'text-[#F47734]' : 'text-black dark:text-[#C8CCD2]', 'hover:text-[#F47734]' ]">Demo</NuxtLink>
                     </div>
                     <div class="py-1">
-                        <NuxtLink to="/pricing" :class="[ $route.path === '/pricing' ? 'text-[#F47734]' : 'text-black dark:text-white', 'hover:text-[#F47734]' ]">Pricing</NuxtLink>
+                        <NuxtLink to="/pricing" :class="[ $route.path === '/pricing' ? 'text-[#F47734]' : 'text-black dark:text-[#C8CCD2]', 'hover:text-[#F47734]' ]">Pricing</NuxtLink>
                     </div>
 
                     <!-- Services Dropdown -->
                     <div class="group relative md:relative" @click="toggleDropdown('services')">
                         <div class="flex items-center justify-between cursor-pointer py-1 md:justify-start hover:[color:#F47734]">
-                            <NuxtLink to="/services/data-factory" :class="[ $route.path === '/services/data-factory' ? 'text-[#F47734]' : 'text-black dark:text-white', 'hover:text-[#F47734]' ]">Services</NuxtLink>
+                            <NuxtLink to="/services/data-factory" :class="[ $route.path === '/services/data-factory' ? 'text-[#F47734]' : 'text-black dark:text-[#C8CCD2]', 'hover:text-[#F47734]' ]">Services</NuxtLink>
                             <i class="fa-solid fa-chevron-down text-xs ml-2 mt-1"></i>
                         </div>
                         <div class="w-full md:w-40 bg-white shadow-lg transition-opacity duration-300 z-50 md:absolute md:left-0 md:right-auto md:opacity-0 md:invisible md:group-hover:opacity-100 md:group-hover:visible"
@@ -87,9 +87,9 @@
                             ]"
                             style="border-top: 4px solid #F47734;"
                         >
-                            <ul class="py-2 text-sm text-black-700">
-                                <li><NuxtLink to="/services/data-factory" :class="[ $route.path === '/services/data-factory' ? 'text-[#F47734]' : 'text-black', 'block px-4 py-2 hover:bg-gray-100' ]">Data Factory</NuxtLink></li>
-                                <li><NuxtLink to="/services/knowledge-workflows" :class="[ $route.path === '/services/knowledge-workflows' ? 'text-[#F47734]' : 'text-black', 'block px-4 py-2 hover:bg-gray-100' ]">Knowledge Workflows</NuxtLink></li>
+                            <ul class="py-2 text-sm text-black-700 dark:bg-[#202124]">
+                                <li><NuxtLink to="/services/data-factory" :class="[ $route.path === '/services/data-factory' ? 'text-[#F47734]' : 'text-black dark:text-[#C8CCD2]', 'block px-4 py-2 hover:bg-gray-100' ]">Data Factory</NuxtLink></li>
+                                <li><NuxtLink to="/services/knowledge-workflows" :class="[ $route.path === '/services/knowledge-workflows' ? 'text-[#F47734]' : 'text-black dark:text-[#C8CCD2]', 'block px-4 py-2 hover:bg-gray-100' ]">Knowledge Workflows</NuxtLink></li>
                             </ul>
                         </div>
                     </div>
@@ -97,7 +97,7 @@
                     <!-- About Us Dropdown -->
                     <div class="group relative md:relative" @click="toggleDropdown('about')">
                         <div class="flex items-center justify-between cursor-pointer py-1 md:justify-start hover:[color:#F47734]">
-                            <NuxtLink to="/about-us/people" :class="[ $route.path === '/about-us/people' ? 'text-[#F47734]' : 'text-black dark:text-white', 'hover:text-[#F47734]' ]">About</NuxtLink>
+                            <NuxtLink to="/about-us/people" :class="[ $route.path === '/about-us/people' ? 'text-[#F47734]' : 'text-black dark:text-[#C8CCD2]', 'hover:text-[#F47734]' ]">About</NuxtLink>
                             <i class="fa-solid fa-chevron-down text-xs ml-2 mt-1"></i>
                         </div>
                         <div class="w-full md:w-40 bg-white shadow-lg transition-opacity duration-300 z-50 md:absolute md:left-0 md:right-auto md:opacity-0 md:invisible md:group-hover:opacity-100 md:group-hover:visible"
@@ -107,11 +107,11 @@
                             ]"
                             style="border-top: 4px solid #F47734;"
                         >
-                            <ul class="py-2 text-sm text-black-700">
-                                <li><NuxtLink to="/about-us/value-proposition" :class="[ $route.path === '/about-us/value-proposition' ? 'text-[#F47734]' : 'text-black', 'block px-4 py-2 hover:bg-gray-100' ]">Value Proposition</NuxtLink></li>
-                                <li><NuxtLink to="/about-us/people" :class="[ $route.path === '/about-us/people' ? 'text-[#F47734]' : 'text-black', 'block px-4 py-2 hover:bg-gray-100' ]">People</NuxtLink></li>
-                                <li><NuxtLink to="/about-us/partners" :class="[ $route.path === '/about-us/partners' ? 'text-[#F47734]' : 'text-black', 'block px-4 py-2 hover:bg-gray-100' ]">Partners</NuxtLink></li>
-                                <li><NuxtLink to="/about-us/contact-us" :class="[ $route.path === '/about-us/contact-us' ? 'text-[#F47734]' : 'text-black', 'block px-4 py-2 hover:bg-gray-100' ]">Contact Us</NuxtLink></li>
+                            <ul class="py-2 text-sm text-black-700 dark:bg-[#202124]">
+                                <li><NuxtLink to="/about-us/value-proposition" :class="[ $route.path === '/about-us/value-proposition' ? 'text-[#F47734]' : 'text-black dark:text-[#C8CCD2]', 'block px-4 py-2 hover:bg-gray-100' ]">Value Proposition</NuxtLink></li>
+                                <li><NuxtLink to="/about-us/people" :class="[ $route.path === '/about-us/people' ? 'text-[#F47734]' : 'text-black dark:text-[#C8CCD2]', 'block px-4 py-2 hover:bg-gray-100' ]">People</NuxtLink></li>
+                                <li><NuxtLink to="/about-us/partners" :class="[ $route.path === '/about-us/partners' ? 'text-[#F47734]' : 'text-black dark:text-[#C8CCD2]', 'block px-4 py-2 hover:bg-gray-100' ]">Partners</NuxtLink></li>
+                                <li><NuxtLink to="/about-us/contact-us" :class="[ $route.path === '/about-us/contact-us' ? 'text-[#F47734]' : 'text-black dark:text-[#C8CCD2]', 'block px-4 py-2 hover:bg-gray-100' ]">Contact Us</NuxtLink></li>
                             </ul>
                         </div>
                     </div>
@@ -119,7 +119,7 @@
                     <!-- Resources Dropdown -->
                     <div class="group relative md:relative" @click="toggleDropdown('resources')">
                         <div class="flex items-center justify-between cursor-pointer py-1 md:justify-start hover:[color:#F47734]">
-                            <NuxtLink to="/resources/brochure" :class="[ $route.path === '/resources/brochure' ? 'text-[#F47734]' : 'text-black dark:text-white', 'hover:text-[#F47734]' ]">Resources</NuxtLink>
+                            <NuxtLink to="/resources/brochure" :class="[ $route.path === '/resources/brochure' ? 'text-[#F47734]' : 'text-black dark:text-[#C8CCD2]', 'hover:text-[#F47734]' ]">Resources</NuxtLink>
                             <i class="fa-solid fa-chevron-down text-xs ml-2 mt-1"></i>
                         </div>
                         <div class="w-full md:w-40 bg-white shadow-lg transition-opacity duration-300 z-50 md:absolute md:left-0 md:right-auto md:opacity-0 md:invisible md:group-hover:opacity-100 md:group-hover:visible"
@@ -129,13 +129,13 @@
                             ]"
                             style="border-top: 4px solid #F47734;"
                         >
-                            <ul>
-                                <li><NuxtLink to="/resources/brochure" :class="[ $route.path === '/resources/brochure' ? 'text-[#F47734]' : 'text-black', 'block px-4 py-2 hover:bg-gray-100' ]">Brochure</NuxtLink></li>
-                                <li><NuxtLink to="/resources/publication" :class="[ $route.path === '/resources/publication' ? 'text-[#F47734]' : 'text-black', 'block px-4 py-2 hover:bg-gray-100' ]">Publications</NuxtLink></li>
-                                <li><NuxtLink to="/resources/blog" :class="[ $route.path === '/resources/blog' ? 'text-[#F47734]' : 'text-black', 'block px-4 py-2 hover:bg-gray-100' ]">Blogs</NuxtLink></li>
-                                <li><NuxtLink to="/resources/careers" :class="[ $route.path === '/resources/careers' ? 'text-[#F47734]' : 'text-black', 'block px-4 py-2 hover:bg-gray-100' ]">Careers</NuxtLink></li>
-                                <li><NuxtLink to="/resources/privacy-statement" :class="[ $route.path === '/resources/privacy-statement' ? 'text-[#F47734]' : 'text-black', 'block px-4 py-2 hover:bg-gray-100' ]">Privacy Statement</NuxtLink></li>
-                                <li><NuxtLink to="/resources/cookie-policy" :class="[ $route.path === '/resources/cookie-policy' ? 'text-[#F47734]' : 'text-black', 'block px-4 py-2 hover:bg-gray-100' ]">Cookie Policy</NuxtLink></li>
+                            <ul class="dark:bg-[#202124]">
+                                <li><NuxtLink to="/resources/brochure" :class="[ $route.path === '/resources/brochure' ? 'text-[#F47734]' : 'text-black dark:text-[#C8CCD2]', 'block px-4 py-2 hover:bg-gray-100' ]">Brochure</NuxtLink></li>
+                                <li><NuxtLink to="/resources/publication" :class="[ $route.path === '/resources/publication' ? 'text-[#F47734]' : 'text-black dark:text-[#C8CCD2]', 'block px-4 py-2 hover:bg-gray-100' ]">Publications</NuxtLink></li>
+                                <li><NuxtLink to="/resources/blog" :class="[ $route.path === '/resources/blog' ? 'text-[#F47734]' : 'text-black dark:text-[#C8CCD2]', 'block px-4 py-2 hover:bg-gray-100' ]">Blogs</NuxtLink></li>
+                                <li><NuxtLink to="/resources/careers" :class="[ $route.path === '/resources/careers' ? 'text-[#F47734]' : 'text-black dark:text-[#C8CCD2]', 'block px-4 py-2 hover:bg-gray-100' ]">Careers</NuxtLink></li>
+                                <li><NuxtLink to="/resources/privacy-statement" :class="[ $route.path === '/resources/privacy-statement' ? 'text-[#F47734]' : 'text-black dark:text-[#C8CCD2]', 'block px-4 py-2 hover:bg-gray-100' ]">Privacy Statement</NuxtLink></li>
+                                <li><NuxtLink to="/resources/cookie-policy" :class="[ $route.path === '/resources/cookie-policy' ? 'text-[#F47734]' : 'text-black dark:text-[#C8CCD2]', 'block px-4 py-2 hover:bg-gray-100' ]">Cookie Policy</NuxtLink></li>
                             </ul>
                         </div>
                     </div>
@@ -176,13 +176,14 @@
     let lastScroll = 0
 
     const handleScroll = () => {
-    const currentScroll = window.scrollY
+        const currentScroll = window.scrollY
 
-    isScrolled.value = currentScroll > 0
-    isScrolledUp.value = currentScroll < lastScroll || currentScroll <= 0
+        isScrolled.value = currentScroll > 0
+        isScrolledUp.value = currentScroll === 0 // Only true at the top
 
-    lastScroll = currentScroll
+        lastScroll = currentScroll
     }
+
 
     onMounted(() => {
     // ✅ Trigger scroll logic immediately to catch current scroll position

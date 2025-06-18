@@ -3,12 +3,12 @@
         <div class="w-full mx-auto flex flex-col sm:flex-row">
             <div class="lg:w-2/5 mt-10 lg:mt-20 xl:mt-50 pl-0 lg:pl-[2rem] xl:pl-[10rem]">
                 <img src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/05/Data-Atelier-logo-wordmark.webp" class="w-auto lg:w-[400px]" alt="Image">
-                <h1 class="text-[30px] lg:text-[30px] xl:text-[40px] text-[#666666] font-light leading-[1.2] py-2 lg:py-2 xl:py-5">
+                <h1 class="text-[30px] lg:text-[30px] xl:text-[40px] text-[#666666] dark:text-[#C8CCD2] font-light leading-[1.2] py-2 lg:py-2 xl:py-5">
                     <span class="text-[#F47625] text-[40px] lg:text-[45px] xl:text-[50px]">Data Discovery</span><br>
                     Make it about
                     <span class="text-[#2D918C] text-[40px] xl:text-[50px]">your data.</span>
                 </h1>
-                <p class="text-[20px] leading-[1.5] mt-1 lg:mt-2 xl:mt-5 text-[#666666] font-medium">
+                <p class="text-[20px] leading-[1.5] mt-1 lg:mt-2 xl:mt-5 text-[#666666] dark:text-[#C8CCD2] font-medium">
                     Make the knowledge and experience from your documents 
                     accessible and integrable into the way you work
                 </p>
@@ -19,7 +19,7 @@
         </div>
 
         <div class="text-center">
-            <h1 class="text-[18px] lg:text-[25px] xl:text-[40px] text-[#666666] font-regular leading-[1.2] py-5 lg:py-10 xl:py-20">
+            <h1 class="text-[18px] lg:text-[25px] xl:text-[40px] text-[#666666] dark:text-[#C8CCD2] font-regular leading-[1.2] py-5 lg:py-10 xl:py-20">
                 <span class="text-[#2D918C] text-[18px] lg:text-[30px] xl:text-[60px]">Choose the best fit</span> 
                 to your current
                 <span class="text-[#F47625] text-[18px] lg:text-[30px] xl:text-[60px]">workflow</span>
@@ -29,7 +29,7 @@
                     <div class="flex justify-center">
                         <img src="/images/DA-Apprentice.png" alt="">
                     </div>
-                    <p class="text-left text-[18px] leading-[1.7] py-10 text-[#535353] font-regular">
+                    <p class="text-left text-[18px] leading-[1.7] py-10 text-[#535353] dark:text-[#C8CCD2] font-regular">
                         Own the power of your data for 
                         free with this trial offer that will let 
                         you test out the base features of 
@@ -44,7 +44,7 @@
                     <div class="flex justify-center">
                         <img src="/images/DA-Bolt.png" alt="">
                     </div>
-                    <p class="text-left text-[18px] leading-[1.7] py-10 text-[#535353] font-regular">
+                    <p class="text-left text-[18px] leading-[1.7] py-10 text-[#535353] dark:text-[#C8CCD2] font-regular">
                         Process more pages and scale up 
                         the power of Apprentice by having 
                         access to data output APIs, and 
@@ -63,7 +63,7 @@
                     <div class="flex justify-center">
                         <img src="/images/DA-Enterprise.png" alt="">
                     </div>
-                    <p class="text-left text-[18px] leading-[1.7] py-10 text-[#535353] font-regular">
+                    <p class="text-left text-[18px] leading-[1.7] py-10 text-[#535353] dark:text-[#C8CCD2] font-regular">
                         Talk to us and we can determine
                         the best configuration of Data 
                         Atelier’s features and deployments 
@@ -81,7 +81,7 @@
         </div>
 
         <div>
-            <h1 class="text-center text-[25px] lg:text-[30px] xl:text-[40px] text-[#666666] font-regular leading-[1.2] py-5 lg:py-20">
+            <h1 class="text-center text-[25px] lg:text-[30px] xl:text-[40px] text-[#666666] dark:text-[#C8CCD2] font-regular leading-[1.2] py-5 lg:py-20">
                 <span class="text-[#2D918C] text-[30px] lg:text-[45px] xl:text-[60px]">Features</span> 
                 to realize the value of your
                 <span class="text-[#F47625] text-[30px] lg:text-[45px] xl:text-[60px]">unstructured data</span>
@@ -96,17 +96,17 @@
                         <h2 class="text-[#F47625] text-[36px] font-bold">FREE</h2>
                     </div>
                     <div class="p-7">
-                        <ul class="list-disc pl-5 leading-[1.7] text-[16px] text-[#535353] [&>li::marker]:text-[#F47625] space-y-3">
+                        <ul class="list-disc pl-5 leading-[1.7] text-[16px] text-[#535353] dark:text-[#C8CCD2] [&>li::marker]:text-[#F47625] space-y-3">
                             <li>Process up to <strong>5,000</strong> pages of unstructured data</li>
                             <li>Supported files <strong>limited to PDFs only</strong></li>
-                            <li class="text-[#CCCCCC]">Add members team’s account</li>
-                            <li class="text-[#CCCCCC]">Create project or data sources to your team’s account</li>
+                            <li class="text-[#CCCCCC] dark:text-white">Add members team’s account</li>
+                            <li class="text-[#CCCCCC] dark:text-white">Create project or data sources to your team’s account</li>
                             <li>Enjoy <strong>BRONZE support</strong>  from the Data Atelier team</li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="lg:w-1/2 shadow-[0_10px_40px_rgba(45,145,140,0.3)] border-[0.5px] border-[#666666] rounded-[20px] lg:mt-10">
+                <div class="lg:w-1/2 shadow-[0_10px_40px_rgba(45,145,140,0.3)] border-[0.5px] border-[#666666] dark:text-[#C8CCD2] rounded-[20px] lg:mt-10">
                     <div class="text-white bg-[#2D918C] text-center rounded-t-[20px] py-3">
                         <h2 class="text-[36px] font-bold">BOLT</h2>
                         <p class="text-[16px] font-light italic">Scale up your unstructured data processing</p>
@@ -115,7 +115,7 @@
                         <h2 class="text-[#2D918C] text-[36px] font-bold">$1000/month</h2>
                     </div>
                     <div class="p-7">
-                        <ul class="list-disc pl-5 leading-[1.7] text-[16px] text-[#535353] [&>li::marker]:text-[#F47625] space-y-3">
+                        <ul class="list-disc pl-5 leading-[1.7] text-[16px] text-[#535353] dark:text-[#C8CCD2] [&>li::marker]:text-[#F47625] space-y-3">
                             <li>Process up to <strong>30,000 pages</strong> of unstructured data</li>
                             <li>Supported files includes <strong>PDFs, Office files and images</strong></li>
                             <li>Add up to <strong>2 members</strong> to be included in your team’s account</li>
@@ -134,7 +134,7 @@
                         <h2 class="text-[#FEA25C] text-[36px] font-bold">Get in touch</h2>
                     </div>
                     <div class="p-7">
-                        <ul class="list-disc pl-5 leading-[1.7] text-[16px] text-[#535353] [&>li::marker]:text-[#F47625] space-y-3">
+                        <ul class="list-disc pl-5 leading-[1.7] text-[16px] text-[#535353] dark:text-[#C8CCD2] [&>li::marker]:text-[#F47625] space-y-3">
                             <li>Process <strong>as many pages</strong> of unstructured data as needed</li>
                             <li>Supported files includes <strong>PDFs, Office files and images</strong></li>
                             <li>Add <strong>as many team members</strong> to be included in your organization’s account</li>
@@ -148,7 +148,7 @@
 
         <div class="h-10"></div>
         <div>
-            <h1 class="text-center text-[25px] lg:text-[30px] xl:text-[40px] text-[#666666] font-regular leading-[1.2] py-5 lg:py-15">
+            <h1 class="text-center text-[25px] lg:text-[30px] xl:text-[40px] text-[#666666] dark:text-[#C8CCD2] font-regular leading-[1.2] py-5 lg:py-15">
                 <span class="text-[#2D918C] text-[30px] lg:text-[45px] xl:text-[60px]">Full features</span> 
                 of
                 <span class="text-[#F47625] text-[30px] lg:text-[45px] xl:text-[60px]">Data Atelier</span>
@@ -157,12 +157,12 @@
         <div v-for="(section, index) in sections" :key="index" class="w-full lg:w-[90%] xl:w-[60%] mx-auto mb-6">
             <button
             @click="toggle(index)"
-            class="w-full flex items-center justify-between text-[20px] lg:text-[36px] font-bold text-[#666666] bg-[#F3F3F3] py-2 px-4 lg:px-7 border border-[#313131]-300 cursor-pointer"
+            class="w-full flex items-center justify-between text-[20px] lg:text-[36px] font-bold text-[#666666] dark:text-white bg-[#F3F3F3] dark:bg-[#282929] py-2 px-4 lg:px-7 border border-[#313131]-300 cursor-pointer"
             >
                 {{ section.title }}
                 <i
                     :class="[
-                    'fa-solid fa-chevron-down text-[18px] rounded-[50px] bg-[#D9D9D9] p-2 transition-transform duration-300',
+                    'fa-solid fa-chevron-down text-[18px] rounded-[50px] bg-[#D9D9D9] dark:bg-[#545556] p-2 transition-transform duration-300',
                     visibility[index] ? 'rotate-180' : ''
                     ]"
                 ></i>
@@ -175,7 +175,7 @@
                 <div class="h-3"></div>
                 <div class="overflow-x-auto">
                     <table class="table-auto w-full border border-gray-300 text-left">
-                        <thead class="bg-gray-100">
+                        <thead class="bg-gray-100 dark:bg-[#545556]">
                             <tr class="text-center">
                                 <th class="border border-gray-300 p-3 font-semibold"> </th>
                                 <th class="border border-gray-300 p-3 text-[#F47625] font-bold">APPRENTICE</th>
@@ -183,14 +183,14 @@
                                 <th class="border border-gray-300 p-3 text-[#FEA25C] font-bold">ENTERPRISE</th>
                             </tr>
                         </thead>
-                        <tbody class="text-sm text-[#666666]">
+                        <tbody class="text-sm text-[#666666] dark:text-[#C8CCD2]">
                             <tr>
                                 <td class="border border-gray-300 p-3">Curate your own datalake</td>
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
                             </tr>
-                            <tr class="bg-gray-50">
+                            <tr class="bg-gray-50 dark:bg-transparent">
                                 <td class="border border-gray-300 p-3">View and filter uploaded files table</td>
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
@@ -202,7 +202,7 @@
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
                             </tr>
-                            <tr class="bg-gray-50">
+                             <tr class="bg-gray-50 dark:bg-transparent">
                                 <td class="border border-gray-300 p-3">Know when the files are deployed for searching by being able to closely monitor file set processing</td>
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
@@ -214,7 +214,7 @@
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
                             </tr>
-                            <tr class="bg-gray-50">
+                             <tr class="bg-gray-50 dark:bg-transparent">
                                 <td class="border border-gray-300 p-3">Search extracted text within classified images</td>
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
@@ -237,7 +237,7 @@
                 <div class="h-3"></div>
                 <div class="overflow-x-auto">
                     <table class="table-auto w-full border border-gray-300 text-left">
-                        <thead class="bg-gray-100">
+                        <thead class="bg-gray-100 dark:bg-[#545556]">
                             <tr class="text-center">
                                 <th class="border border-gray-300 p-3 font-semibold"> </th>
                                 <th class="border border-gray-300 p-3 text-[#F47625] font-bold">APPRENTICE</th>
@@ -245,14 +245,14 @@
                                 <th class="border border-gray-300 p-3 text-[#FEA25C] font-bold">ENTERPRISE</th>
                             </tr>
                         </thead>
-                        <tbody class="text-sm text-[#666666]">
+                        <tbody class="text-sm text-[#666666] dark:text-[#C8CCD2]">
                             <tr>
                                 <td class="border border-gray-300 p-3">View and bulk export all uploaded files and derived metadata</td>
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
                             </tr>
-                            <tr class="bg-gray-50">
+                            <tr class="bg-gray-50 dark:bg-transparent">
                                 <td class="border border-gray-300 p-3">View and bulk export all extracted text and derived metadata</td>
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
@@ -264,7 +264,7 @@
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
                             </tr>
-                            <tr class="bg-gray-50">
+                            <tr class="bg-gray-50 dark:bg-transparent">
                                 <td class="border border-gray-300 p-3">Edit uploaded file metadata</td>
                                 <td class="border border-gray-300 p-3 text-center">-</td>
                                 <td class="border border-gray-300 p-3 text-center">-</td>
@@ -276,7 +276,7 @@
                                 <td class="border border-gray-300 p-3 text-center">-</td>
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
                             </tr>
-                            <tr class="bg-gray-50">
+                            <tr class="bg-gray-50 dark:bg-transparent">
                                 <td class="border border-gray-300 p-3">Edit extracted images metadata</td>
                                 <td class="border border-gray-300 p-3 text-center">-</td>
                                 <td class="border border-gray-300 p-3 text-center">-</td>
@@ -299,7 +299,7 @@
                 <div class="h-3"></div>
                 <div class="overflow-x-auto">
                     <table class="table-auto w-full border border-gray-300 text-left">
-                        <thead class="bg-gray-100">
+                        <thead class="bg-gray-100 dark:bg-[#545556]">
                             <tr class="text-center">
                                 <th class="border border-gray-300 p-3 font-semibold"> </th>
                                 <th class="border border-gray-300 p-3 text-[#F47625] font-bold">APPRENTICE</th>
@@ -307,14 +307,14 @@
                                 <th class="border border-gray-300 p-3 text-[#FEA25C] font-bold">ENTERPRISE</th>
                             </tr>
                         </thead>
-                        <tbody class="text-sm text-[#666666]">
+                        <tbody class="text-sm text-[#666666] dark:text-[#C8CCD2]">
                             <tr>
                                 <td class="border border-gray-300 p-3">READ and EDIT the OCR extractions and their corresponding bounding boxes</td>
                                 <td class="border border-gray-300 p-3 text-center">–</td>
                                 <td class="border border-gray-300 p-3 text-center">✓*</td>
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
                             </tr>
-                            <tr class="bg-gray-50">
+                            <tr class="bg-gray-50 dark:bg-transparent">
                                 <td class="border border-gray-300 p-3">READ and EDIT the metadata associated to the extraction</td>
                                 <td class="border border-gray-300 p-3 text-center">–</td>
                                 <td class="border border-gray-300 p-3 text-center">✓*</td>
@@ -326,7 +326,7 @@
                                 <td class="border border-gray-300 p-3 text-center">✓*</td>
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
                             </tr>
-                            <tr class="bg-gray-50">
+                            <tr class="bg-gray-50 dark:bg-transparent">
                                 <td class="border border-gray-300 p-3">READ and EDIT the metadata for each ingested file</td>
                                 <td class="border border-gray-300 p-3 text-center">–</td>
                                 <td class="border border-gray-300 p-3 text-center">✓*</td>
@@ -338,7 +338,7 @@
                                 <td class="border border-gray-300 p-3 text-center">✓*</td>
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
                             </tr>
-                            <tr class="bg-gray-50">
+                            <tr class="bg-gray-50 dark:bg-transparent">
                                 <td class="border border-gray-300 p-3">Retrieve PDF data</td>
                                 <td class="border border-gray-300 p-3 text-center">–</td>
                                 <td class="border border-gray-300 p-3 text-center">✓*</td>
@@ -350,7 +350,7 @@
                                 <td class="border border-gray-300 p-3 text-center">✓*</td>
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
                             </tr>
-                            <tr class="bg-gray-50">
+                            <tr class="bg-gray-50 dark:bg-transparent">
                                 <td class="border border-gray-300 p-3">READ and EDIT the list of image classes that will be used as image tags with their associated IDs</td>
                                 <td class="border border-gray-300 p-3 text-center">–</td>
                                 <td class="border border-gray-300 p-3 text-center">✓*</td>
@@ -362,7 +362,7 @@
                                 <td class="border border-gray-300 p-3 text-center">✓*</td>
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
                             </tr>
-                            <tr class="bg-gray-50">
+                            <tr class="bg-gray-50 dark:bg-transparent">
                                 <td class="border border-gray-300 p-3">Query all extracted text (from non-text/images such as labels, annotations, captions)</td>
                                 <td class="border border-gray-300 p-3 text-center">–</td>
                                 <td class="border border-gray-300 p-3 text-center">✓*</td>
@@ -386,7 +386,7 @@
                 <div class="h-3"></div>
                 <div class="overflow-x-auto">
                     <table class="table-auto w-full border border-gray-300 text-left">
-                        <thead class="bg-gray-100">
+                        <thead class="bg-gray-100 dark:bg-[#545556]">
                             <tr class="text-center">
                                 <th class="border border-gray-300 p-3 font-semibold"> </th>
                                 <th class="border border-gray-300 p-3 text-[#F47625] font-bold">APPRENTICE</th>
@@ -394,14 +394,14 @@
                                 <th class="border border-gray-300 p-3 text-[#FEA25C] font-bold">ENTERPRISE</th>
                             </tr>
                         </thead>
-                        <tbody class="text-sm text-[#666666]">
+                        <tbody class="text-sm text-[#666666] dark:text-[#C8CCD2]">
                             <tr>
                                 <td class="border border-gray-300 p-3">Monitor and manage file processing pipelines</td>
                                 <td class="border border-gray-300 p-3 text-center">–</td>
                                 <td class="border border-gray-300 p-3 text-center">-</td>
                                 <td class="border border-gray-300 p-3 text-center">✓</td>
                             </tr>
-                            <tr class="bg-gray-50">
+                            <tr class="bg-gray-50 dark:bg-transparent">
                                 <td class="border border-gray-300 p-3">Re-run failed file processing pipelines</td>
                                 <td class="border border-gray-300 p-3 text-center">–</td>
                                 <td class="border border-gray-300 p-3 text-center">-</td>
@@ -424,7 +424,7 @@
                 <div class="h-3"></div>
                 <div class="overflow-x-auto">
                     <table class="table-auto w-full border border-gray-300 text-left">
-                        <tbody class="text-sm text-[#666666]">
+                        <tbody class="text-sm text-[#666666] dark:text-[#C8CCD2]">
                             <tr>
                                 <td class="border border-gray-300 p-3">Support Tier</td>
                                 <td class="border border-gray-300 p-3 text-center">Customer Feedback Lead Time</td>
@@ -458,9 +458,9 @@
     </div>
     <div class="h-10"></div>
 
-    <div class="bg-[#F3F3F3] w-full px-2 lg:px-0">
+    <div class="bg-[#F3F3F3] dark:bg-[#282929] w-full px-2 lg:px-0">
         <div class="h-5 lg:h-10"></div>
-            <h1 class="text-[20px] lg:text-[35px] text-[#535353] font-medium text-center leading-[1.2]">
+            <h1 class="text-[20px] lg:text-[35px] text-[#535353] dark:text-[#C8CCD2] font-medium text-center leading-[1.2]">
                 <span class="text-[#2D918C] text-[25px] lg:text-[50px]">Our clients found value</span>
                 with
                 <span class="text-[#F47625] text-[25px] lg:text-[50px]">Data Atelier</span> 
@@ -472,7 +472,7 @@
                 <div class="w-1/2 text-center">
                     <h1 class="text-[#F47625] text-[35px] lg:text-[125px] font-bold">90%</h1>
                     <p class="text-[#2D918C] text-[14px] lg:text-[22px] font-bold">Time savings gained</p>
-                    <p class="text-[#666666] text-[12px] lg:text-[18px] font-medium leading-[1.2] lg:py-5 lg:px-5">
+                    <p class="text-[#666666] dark:text-[#C8CCD2] text-[12px] lg:text-[18px] font-medium leading-[1.2] lg:py-5 lg:px-5">
                         in data extraction and analysis in doing non-productive time analysis for 3 operating units.
                     </p>
                 </div>
@@ -488,7 +488,7 @@
                 <div class="w-1/2 text-center">
                     <h1 class="text-[#F47625] text-[35px] lg:text-[125px] font-bold">50%</h1>
                     <p class="text-[#2D918C] text-[14px] lg:text-[22px] font-bold">Efficiency gained</p>
-                    <p class="text-[#666666] text-[12px] lg:text-[18px] font-medium leading-[1.2] lg:py-5 lg:px-5">
+                    <p class="text-[#666666] dark:text-[#C8CCD2] text-[12px] lg:text-[18px] font-medium leading-[1.2] lg:py-5 lg:px-5">
                         in attribute extraction from documents and images to be used in data format standardization.
                     </p>
                 </div>
@@ -499,7 +499,7 @@
     <div class="h-10 lg:h-15"></div>
     <div>
         <div class="w-full lg:w-[80%] xl:w-[60%] mx-auto">
-            <h1 class="text-[20px] lg:text-[40px] text-[#535353] font-medium text-center leading-[1.2]">
+            <h1 class="text-[20px] lg:text-[40px] text-[#535353] dark:text-white font-medium text-center leading-[1.2]">
                 The earth is
                 <span class="text-[#F47625] text-[25px] lg:text-[60px]">evolving.</span> 
                 The
@@ -511,21 +511,21 @@
         <div class="w-full lg:w-[80%] xl:w-[60%] flex flex-col lg:flex-row mx-auto gap-5 px-5">
             <div class="lg:w-1/2 shadow-[0_10px_40px_rgba(0,0,0,0.3)]">
                 <img src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/05/DA1-1.png" class="w-full">
-                <p class="text-[15px] text-[#535353] p-4">
+                <p class="text-[15px] text-[#535353] dark:text-[#C8CCD2] p-4">
                     Rediscover old finds through a deep dive of all the exploration documents 
                     that are available to you and realize leads that were deemed uneconomical before
                 </p>
             </div>
             <div class="lg:w-1/2 shadow-[0_10px_40px_rgba(0,0,0,0.3)]">
                 <img src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/05/DA2-1.png" class="w-full">
-                <p class="text-[15px] text-[#535353] p-4">
+                <p class="text-[15px] text-[#535353] dark:text-[#C8CCD2] p-4">
                     Be equipped with all the knowledge and experiences from all your documents 
                     made accessible and integrable into the way you work 
                 </p>
             </div>
             <div class="lg:w-1/2 shadow-[0_10px_40px_rgba(0,0,0,0.3)]">
                 <img src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/05/DA3-1.png" class="w-full">
-                <p class="text-[15px] text-[#535353] p-4">
+                <p class="text-[15px] text-[#535353] dark:text-[#C8CCD2] p-4">
                     Unlocking the information from facillities are significant to energy 
                     transition and bringing energy to the market
                 </p>
@@ -543,7 +543,7 @@
                     <h1 class="text-[30px] lg:text-[40px] xl:text-[60px] text-[#2D918C] font-medium leading-[1.2]">
                         Get the Brochure
                     </h1>
-                    <p class="lg:text-[18px] xl:text-[22px] mt-2 lg:mt-5 text-[#666666] font-medium leading-[1.7] w-full">
+                    <p class="lg:text-[18px] xl:text-[22px] mt-2 lg:mt-5 text-[#666666] dark:text-[#C8CCD2] font-medium leading-[1.7] w-full">
                         With the Data Atelier, you have the power of machine 
                         learning and artificial intelligence in your hands. 
                         You customize your data the way you want it, how you want it when you want it.

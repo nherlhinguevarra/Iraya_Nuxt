@@ -6,14 +6,14 @@
                     <img src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/05/updatedIrayaLogo.webp" class="w-[220px] mx-auto lg:ml-0">
                 </div>
                 <div class="lg:w-1/2">
-                    <p class="text-[18px] leading-snug mt-10 text-[#666666] font-semibold">
+                    <p class="text-[18px] leading-snug mt-10 text-[#666666] dark:text-white font-semibold">
                         Subscribe to get updates and more.
                     </p>
                     <div class="py-4">
-                        <input id="name" type="text" placeholder="Email" class="shadow-[0_10px_40px_rgba(0,0,0,0.3)] rounded-[10px] px-3 py-2 w-full" />
+                        <input id="name" type="text" placeholder="Email" class="shadow-[0_10px_40px_rgba(0,0,0,0.3)] rounded-[10px] px-3 py-2 w-full dark:text-white" />
                     </div>
                     <div class="">
-                        <button class="bg-[#F47625] text-[white] text-[16px] font-medium shadow-[0_10px_40px_rgba(0,0,0,0.3)] rounded-[50px] px-3 py-2 w-full hover:bg-[#4CBFB4] cursor-pointer">
+                        <button class="bg-[#F47625] text-white text-[16px] font-medium shadow-[0_10px_40px_rgba(0,0,0,0.3)] rounded-[50px] px-3 py-2 w-full hover:bg-[#4CBFB4] cursor-pointer">
                             SUBSCRIBE 
                             <i class="bi bi-chevron-right pl-2 text-[16px]"></i>
                         </button>

@@ -5,13 +5,13 @@
             <div class="p-5 lg:w-1/2 lg:p-0">
                 <div class="lg:pl-5 xl:pl-50 lg:pt-25 xl:pt-35">
                     <img src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/05/bonaparte400.webp" class="w-full">
-                    <h1 class="text-[25px] lg:text-[30px] xl:text-[50px] text-[#535353] font-light leading-[1.2] py-2 lg:py-2 xl:py-5">
+                    <h1 class="text-[25px] lg:text-[30px] xl:text-[50px] text-[#535353] dark:text-white font-light leading-[1.2] py-2 lg:py-2 xl:py-5">
                         A
                         <span class="text-[#F47625]">million year’s data</span> 
                         in
                         <span class="text-[#2D918C]">minutes</span>
                     </h1>
-                    <h1 class="lg:text-[16px] xl:text-[20px] text-[#535353] font-normal leading-[2] lg:py-5 xl:py-5">
+                    <h1 class="lg:text-[16px] xl:text-[20px] text-[#535353] dark:text-[#C8CCD2] font-normal leading-[2] lg:py-5 xl:py-5">
                         More than <span class="font-semibold text-[#F47625]">70 years of drilling history from the Bonaparte Basin </span>in Australia 
                         resulting to half a million pages of geoscience and engineering knowledge
                         and experience from <span class="font-bold text-[#2D918C]">more than 400 wells, covering over 270,000 sq km</span> can 
@@ -84,14 +84,14 @@
         <div class="h-5 lg:h-10 xl:h-20"></div>
     </div>
 
-    <div class="bg-[#F3F3F3] px-5">
+    <div class="bg-[#F3F3F3] dark:bg-[#282929] px-5">
         <div class="h-5 lg:h-10"></div>
         <div class="w-full lg:w-[80%] xl:w-[40%] mx-auto leading-[1] text-center">
             <div class="flex justify-center">
                 <img src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/05/EdocsTMLogo.webp" alt="">
             </div>
             <h3 class="text-[#2D918C] text-[40px] lg:text-[60px] font-medium">makes it easy</h3>
-            <h1 class="text-[14px] lg:text-[20px] xl:text-[28px] text-[#666666] font-normal leading-[1.2] mx-auto mt-5">
+            <h1 class="text-[14px] lg:text-[20px] xl:text-[28px] text-[#666666] dark:text-white font-normal leading-[1.2] mx-auto mt-5">
                 With <span class="font-bold text-[#F47625]">BONAPARTE 400</span>, information is compiled for
                 the following cases
             </h1>
@@ -99,15 +99,15 @@
         <div class="h-5 lg:h-10 xl:h-20"></div>
         <div class="w-full lg:w-[90%] xl:w-[50%] mx-auto">
             <div class="flex flex-col lg:flex-row justify-center gap-5 lg:gap-10">
-                <div class="lg:w-1/2 shadow-[0_10px_40px_rgba(0,0,0,0.3)] bg-[#FFFFFF]">
+                <div class="lg:w-1/2 shadow-[0_10px_40px_rgba(0,0,0,0.3)] bg-[#FFFFFF] dark:bg-[#202124]">
                     <img src="/images/group16.png" alt="">
-                    <p class="text-center text-[16px] font-regular text-[#666666] py-5">
+                    <p class="text-center text-[16px] font-regular text-[#666666] dark:text-[#C8CCD2] py-5">
                         See the overview of geodensity maps
                     </p>
                 </div>
-                <div class="lg:w-1/2 shadow-[0_10px_40px_rgba(0,0,0,0.3)] bg-[#FFFFFF]">
+                <div class="lg:w-1/2 shadow-[0_10px_40px_rgba(0,0,0,0.3)] bg-[#FFFFFF] dark:bg-[#202124]">
                     <img src="/images/group17.png" alt="">
-                    <p class="text-center text-[16px] font-regular text-[#666666] py-5">
+                    <p class="text-center text-[16px] font-regular text-[#666666] dark:text-[#C8CCD2] py-5">
                         Investigate regional trends of lithology, fluids, pressure,
                         temperature, and minerals
                     </p>
@@ -115,15 +115,15 @@
             </div>
             <div class="h-5 lg:h-10"></div>
             <div class="flex flex-col lg:flex-row justify-center gap-5 lg:gap-10">
-                <div class="lg:w-1/2 shadow-[0_10px_40px_rgba(0,0,0,0.3)] bg-[#FFFFFF]">
+                <div class="lg:w-1/2 shadow-[0_10px_40px_rgba(0,0,0,0.3)] bg-[#FFFFFF] dark:bg-[#202124]">
                     <img src="/images/group18.png" alt="">
-                    <p class="text-center text-[16px] font-regular text-[#666666] py-5">
+                    <p class="text-center text-[16px] font-regular text-[#666666] dark:text-[#C8CCD2] py-5">
                         Search classified images for insight and analogues
                     </p>
                 </div>
-                <div class="lg:w-1/2 shadow-[0_10px_40px_rgba(0,0,0,0.3)] bg-[#FFFFFF]">
+                <div class="lg:w-1/2 shadow-[0_10px_40px_rgba(0,0,0,0.3)] bg-[#FFFFFF] dark:bg-[#202124]">
                     <img src="/images/group19.png" alt="">
-                    <p class="text-center text-[16px] font-regular text-[#666666] py-5">
+                    <p class="text-center text-[16px] font-regular text-[#666666] dark:text-[#C8CCD2] py-5">
                         Understanding the drilling history using knowledge graphs
                     </p>
                 </div>
@@ -135,12 +135,12 @@
     <div class="h-5 lg:h-10"></div>
     <div class="p-5">
         <div class="w-full lg:w-[80%] xl:w-[45%] text-center mx-auto">
-            <h1 class="text-[25px] lg:text-[30px] xl:text-[40px] text-[#535353] font-medium leading-[1.2] py-2 px-10">
+            <h1 class="text-[25px] lg:text-[30px] xl:text-[40px] text-[#535353] dark:text-white font-medium leading-[1.2] py-2 px-10">
                 <span class="text-[#F47625] text-[25px] lg:text-[30px] xl:text-[60px] ">How </span> 
                 can we help you with 
                 <span class="text-[#2D918C] text-[25px] lg:text-[30px] xl:text-[60px] ">Bonaparte 400?</span>
             </h1>
-            <h1 class="text-[14px] lg:text-[18px] xl:text-[20px] text-[#666666] font-medium leading-[1.2] mx-auto mt-5">
+            <h1 class="text-[14px] lg:text-[18px] xl:text-[20px] text-[#666666] dark:text-[#C8CCD2] font-medium leading-[1.2] mx-auto mt-5">
                 Upload your own proprietary unstructured data to
                 <span class="font-bold text-[#F47625]"> ElasticDocs™</span> It will be ingested, stored,
                 classified, and will be accessible through all of
@@ -160,7 +160,7 @@
                     <h1 class="text-[30px] lg:text-[40px] xl:text-[60px] text-[#2D918C] font-medium leading-[1.2]">
                         Get the Brochure
                     </h1>
-                    <p class="lg:text-[22px] lg:mt-2 text-[#666666] font-medium leading-[1.7] w-full">
+                    <p class="lg:text-[22px] lg:mt-2 text-[#666666] dark:text-[#C8CCD2] font-medium leading-[1.7] w-full">
                         We always keep <span class="text-[#2D918C] font-bold text-[20px]">BONAPARTE 400</span> evergreen. 
                         Information on new wells and other data is 
                         absorbed and incorporated by <span class="text-[#F47625] font-bold text-[20px]">ElasticDocs™</span> as 

@@ -4,18 +4,18 @@
         <div class="flex flex-col lg:flex-row w-[100%] mx-auto">
             <div class="p-5 lg:w-1/2 lg:p-0">
                 <div class="lg:pl-5 xl:pl-50 lg:pt-5 xl:pt-10">
-                    <h1 class="text-[25px] lg:text-[30px] xl:text-[40px] text-[#666666] font-light leading-[1.2] py-2 lg:py-2 xl:py-5">
+                    <h1 class="text-[25px] lg:text-[30px] xl:text-[40px] text-[#666666] dark:text-white font-light leading-[1.2] py-2 lg:py-2 xl:py-5">
                         Reading
                         <span class="text-[#467094] text-[30px] lg:text-[40px] xl:text-[50px] font-bold">Earth’s History</span> 
                         for the
                         <span class="text-[#F47625] text-[30px] lg:text-[40px] xl:text-[50px] font-bold">Future of Energy</span>
                     </h1>
-                    <h1 class="lg:text-[16px] xl:text-[20px] text-[#535353] font-normal leading-[2] lg:py-4">
+                    <h1 class="lg:text-[16px] xl:text-[20px] text-[#535353] dark:text-[#C8CCD2] font-normal leading-[2] lg:py-4">
                         What happens when you combine the data of EarthDoc
                         with the technology of <span class="text-[#F47625] font-semibold">ElasticDocs™</span>? You get a 
                         pioneering and cutting-edge technology called <span class="text-[#F47625] font-semibold">ED2K</span>.
                     </h1>
-                    <h1 class="lg:text-[16px] xl:text-[20px] text-[#535353] font-normal leading-[2] lg:py-4">
+                    <h1 class="lg:text-[16px] xl:text-[20px] text-[#535353] dark:text-[#C8CCD2] font-normal leading-[2] lg:py-4">
                         With ED2K, you can boost your navigation of 70,000+ 
                         scientific and technical publications contained in
                         <span class="text-[#467094] font-semibold">EarthDoc</span>.
@@ -101,16 +101,16 @@
                         <span class="text-[#467094]">The data of EarthDoc +</span> 
                         the technology of ElasticDocs™ = Knowledge
                     </h1>
-                    <p class="text-[20px] text-[#535353] font-normal leading-[1.5] w-full lg:w-[60%] xl:w-[40%] mx-auto py-4">
+                    <p class="text-[20px] text-[#535353] dark:text-[#C8CCD2] font-normal leading-[1.5] w-full lg:w-[60%] xl:w-[40%] mx-auto py-4">
                         It combines two knowledge powerhouses in the energy and data industry, EarthDoc and ElasticDocs™ .
                     </p>
 
-                    <h1 class="text-[#467094] text-[20px] lg:text-[40px] text-[#666666] font-light leading-[1.5] py-4">
+                    <h1 class="text-[#467094] text-[20px] lg:text-[40px] text-[#666666] dark:text-[#C8CCD2] font-light leading-[1.5] py-4">
                         <span class="text-[#467094] text-[35px] lg:text-[60px] text-[#F47625] font-bold">ED2K’s</span>
                         bounty in
                         <span class="text-[#2D918C] text-[35px] lg:text-[60px] font-bold">Numbers</span> 
                     </h1>
-                    <p class="text-[20px] text-[#535353] font-normal leading-[1.5] w-full lg:w-[60%] xl:w-[40%] mx-auto py-4">
+                    <p class="text-[20px] text-[#535353] dark:text-[#C8CCD2] font-normal leading-[1.5] w-full lg:w-[60%] xl:w-[40%] mx-auto py-4">
                         <span class="text-[#F47625] font-bold">Iraya Energies</span> 
                         have processed over the <span class="text-[#467094] font-bold">EarthDoc's</span> repository 
                         <span class="text-[#2D918C] font-bold">using leading-edge Machine Learning (ML) and Artificial Intelligence (AI).</span>
@@ -119,7 +119,7 @@
                 
                 <div class="w-full lg:w-full xl:w-[80%] flex flex-col lg:flex-row gap-5 lg:gap-8 xl:gap-10 mx-auto">
                     <div class="lg:w-1/2 text-center">
-                        <div class="rounded-t-[20px] shadow-[0_-6px_6px_-4px_rgba(0,0,0,0.2),-6px_0_6px_-4px_rgba(0,0,0,0.2),6px_0_6px_-4px_rgba(0,0,0,0.2)] leading-[1.2] p-5 lg:p-5 xl:p-10 w-[40%] lg:w-[60%] xl:w-[45%] mx-auto">
+                        <div class="rounded-t-[20px] shadow-[0_-6px_6px_-4px_rgba(0,0,0,0.2),-6px_0_6px_-4px_rgba(0,0,0,0.2),6px_0_6px_-4px_rgba(0,0,0,0.2)] leading-[1.2] p-5 lg:p-5 xl:p-10 w-[40%] lg:w-[60%] xl:w-[45%] mx-auto dark:bg-[#282929]">
                             <h1 class="text-[#F47625] text-[40px] lg:text-[60px] xl:text-[80px] font-bold">39</h1>
                             <h1 class="text-[#2D918C] text-[20px] lg:text-[25px] xl:text-[32px] font-bold">years</h1>
                         </div>
@@ -130,7 +130,7 @@
                     </div>
 
                     <div class="lg:w-1/2 text-center">
-                        <div class="rounded-t-[20px] shadow-[0_-6px_6px_-4px_rgba(0,0,0,0.2),-6px_0_6px_-4px_rgba(0,0,0,0.2),6px_0_6px_-4px_rgba(0,0,0,0.2)] leading-[1.2] p-5 lg:p-5 xl:p-10 w-[40%] lg:w-[60%] xl:w-[45%] mx-auto">
+                        <div class="rounded-t-[20px] shadow-[0_-6px_6px_-4px_rgba(0,0,0,0.2),-6px_0_6px_-4px_rgba(0,0,0,0.2),6px_0_6px_-4px_rgba(0,0,0,0.2)] leading-[1.2] p-5 lg:p-5 xl:p-10 w-[40%] lg:w-[60%] xl:w-[45%] mx-auto dark:bg-[#282929]">
                             <h1 class="text-[#F47625] text-[40px] lg:text-[60px] xl:text-[80px] font-bold">872</h1>
                             <h1 class="text-[#2D918C] text-[20px] lg:text-[25px] xl:text-[32px] font-bold">basins</h1>
                         </div>
@@ -141,7 +141,7 @@
                     </div>
 
                     <div class="lg:w-1/2 text-center">
-                        <div class="rounded-t-[20px] shadow-[0_-6px_6px_-4px_rgba(0,0,0,0.2),-6px_0_6px_-4px_rgba(0,0,0,0.2),6px_0_6px_-4px_rgba(0,0,0,0.2)] leading-[1.2] p-5 lg:p-5 xl:p-10 w-[40%] lg:w-[60%] xl:w-[45%] mx-auto">
+                        <div class="rounded-t-[20px] shadow-[0_-6px_6px_-4px_rgba(0,0,0,0.2),-6px_0_6px_-4px_rgba(0,0,0,0.2),6px_0_6px_-4px_rgba(0,0,0,0.2)] leading-[1.2] p-5 lg:p-5 xl:p-10 w-[40%] lg:w-[60%] xl:w-[45%] mx-auto dark:bg-[#282929]">
                             <h1 class="text-[#F47625] text-[40px] lg:text-[60px] xl:text-[80px] font-bold">195</h1>
                             <h1 class="text-[#2D918C] text-[20px] lg:text-[25px] xl:text-[32px] font-bold">countries</h1>
                         </div>
@@ -163,16 +163,16 @@
         </div>
     </div>
 
-    <div class="px-5 bg-[#F3F3F3]">
+    <div class="px-5 bg-[#F3F3F3] dark:bg-[#282929]">
         <div class="h-5 lg:h-10"></div>
         <h1 class="text-center text-[30px] lg:text-[50px] xl:text-[60px] text-[#F47625] font-medium">How does ED2K work?</h1>
-        <p class="text-center text-160px] lg:text-[20px] text-[#666666] font-medium w-full lg:w-[80%] xl:w-[60%] mx-auto py-5">
+        <p class="text-center text-160px] lg:text-[20px] text-[#666666] dark:text-[#C8CCD2] font-medium w-full lg:w-[80%] xl:w-[60%] mx-auto py-5">
             All of EarthDoc’s 70,000+ articles are geotagged to 800+ geological basins around the world. Natural language 
             processing, auto-image recognition, and recommender systems are fully integrated into the ED2K system. This 
             results in a short amount of time, maximizing reading and analysis of the Earth’s data.
         </p>
         <img src="/images/MLSEQ.png" class="block mx-auto py-5 lg:py-10">
-        <p class="text-center text-160px] lg:text-[20px] text-[#666666] font-medium w-full lg:w-[80%] xl:w-[60%] mx-auto py-5">
+        <p class="text-center text-160px] lg:text-[20px] text-[#666666] dark:text-[#C8CCD2] font-medium w-full lg:w-[80%] xl:w-[60%] mx-auto py-5">
             Using an intelligent pipeline of Optical Character Recognition, Deep Convolutional Neural Networks, Natural
             Language Processing & Knowledge Graphs algorithms, the machine auto classifies different earth image clues, from 
             the macroscopic to the microscopic, so you, our earth scientists and engineers, can lead us to the right energy mix 
@@ -183,7 +183,7 @@
 
     <div class="h-5 lg:h-20"></div>
         <div class="w-full lg:w-[90%] xl:w-[60%] mx-auto">
-            <hr class="mt-4 h-[1px] bg-[#66666680] bg-opacity-20 border-0" />
+            <hr class="mt-4 h-[1px] bg-[#66666680] dark:bg-[#EFF0F1] bg-opacity-20 border-0" />
             <div class="h-5 lg:h-20"></div>
             <div class="w-full flex flex-col lg:flex-row mx-auto px-0 lg:px-0 xl:px-10">
                 <div class="lg:w-2/5 flex justify-center">
@@ -193,11 +193,11 @@
                     <h1 class="text-[30px] lg:text-[40px] xl:text-[60px] text-[#2D918C] font-medium leading-[1.2]">
                         Get the Brochure
                     </h1>
-                    <p class="lg:text-[22px] lg:mt-2 text-[#666666] font-medium leading-[1.7] w-full">
+                    <p class="lg:text-[22px] lg:mt-2 text-[#666666] dark:text-[#C8CCD2] font-medium leading-[1.7] w-full">
                         Our AI technology and IT infrastructure are the 
                         best out there.
                     </p>
-                    <p class="lg:text-[22px] lg:mt-2 text-[#666666] font-medium leading-[1.7] w-full">
+                    <p class="lg:text-[22px] lg:mt-2 text-[#666666] dark:text-[#C8CCD2] font-medium leading-[1.7] w-full">
                         With the 
                         <span class="text-[#2D918C] font-bold text-[20px]">ED2K</span>
                         collaboration, EarthDoc’s peer-
