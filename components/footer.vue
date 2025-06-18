@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-[#F3F3F3] w-full">
+    <footer class="bg-[#F3F3F3] dark:bg-[#282929] w-full">
         <div class="w-[100%] lg:w-[90%] xl:w-[60%] mx-auto px-5">
             <div class="flex flex-col px-5 sm:px-0 sm:flex-row">
                 <div class="lg:w-1/2 pt-12">
@@ -24,42 +24,50 @@
             <div class="grid grid-cols-2 px-5 sm:px-0 sm:grid-cols-5 sm:gap-y-4 sm:gap-x-0 pt-5">
                 <div class="">
                     <h2 class="text-[16px] font-medium text-[#F47625] py-4">PRODUCTS</h2>
-                    <NuxtLink to="/products/data-atelier" class="text-[14px] font-medium text-[#666666] cursor-pointer">Data Atelier <br></NuxtLink>
-                    <div class="h-1"></div>
-                    <NuxtLink to="/products/elasticdocs" class="text-[14px] font-medium text-[#666666] cursor-pointer">ElasticDocs <br></NuxtLink>
-                    <div class="h-1"></div>
-                    <NuxtLink to="/products/ed2k" class="text-[14px] font-medium text-[#666666] cursor-pointe">ED2K <br></NuxtLink>
-                    <div class="h-1"></div>
-                    <NuxtLink to="/products/bonaparte-400" class="text-[14px] font-medium text-[#666666] cursor-pointe">Bonaparte 400 <br></NuxtLink>
+                    <div class="text-[#666666] dark:text-[#C8CCD2]">
+                        <NuxtLink to="/products/data-atelier" class="text-[14px] font-medium cursor-pointer">Data Atelier <br></NuxtLink>
+                        <div class="h-1"></div>
+                        <NuxtLink to="/products/elasticdocs" class="text-[14px] font-medium cursor-pointer">ElasticDocs <br></NuxtLink>
+                        <div class="h-1"></div>
+                        <NuxtLink to="/products/ed2k" class="text-[14px] font-medium cursor-pointe">ED2K <br></NuxtLink>
+                        <div class="h-1"></div>
+                        <NuxtLink to="/products/bonaparte-400" class="text-[14px] font-medium cursor-pointer">Bonaparte 400 <br></NuxtLink>
+                    </div>
                 </div>
 
                 <div class="">
                     <h2 class="text-[16px] font-medium text-[#F47625] py-4">SERVICES</h2>
-                    <NuxtLink to="/services/data-factory" class="text-[14px] font-medium text-[#666666] cursor-pointe">Data Factory <br></NuxtLink>
-                    <div class="h-1"></div>
-                    <NuxtLink to="/services/knowledge-workflows" class="text-[14px] font-medium text-[#666666] cursor-pointe">Knowledge Workflows <br></NuxtLink>
+                    <div class="text-[#666666] dark:text-[#C8CCD2]">
+                        <NuxtLink to="/services/data-factory" class="text-[14px] font-medium cursor-pointer">Data Factory <br></NuxtLink>
+                        <div class="h-1"></div>
+                        <NuxtLink to="/services/knowledge-workflows" class="text-[14px] font-medium cursor-pointer">Knowledge Workflows <br></NuxtLink>
+                    </div>
                 </div>
 
                 <div class="">
                     <h2 class="text-[16px] font-medium text-[#F47625] py-4">WHY IRAYA</h2>
-                    <NuxtLink to="/about/value-proposition" class="text-[14px] font-medium text-[#666666] cursor-pointe">Value Proposition <br></NuxtLink>
-                    <div class="h-1"></div>
-                    <NuxtLink to="/about/data-ingestion" class="text-[14px] font-medium text-[#666666] cursor-pointe">Data Ingestion <br></NuxtLink>
-                    <div class="h-1"></div>
-                    <NuxtLink to="/about/data-digestion" class="text-[14px] font-medium text-[#666666] cursor-pointe">Data Digestion <br></NuxtLink>
-                    <div class="h-1"></div>
-                    <NuxtLink to="/about/knowledge-extraction" class="text-[14px] font-medium text-[#666666] cursor-pointe">Knowledge Extraction <br></NuxtLink>
+                    <div class="text-[#666666] dark:text-[#C8CCD2]">
+                        <NuxtLink to="/about/value-proposition" class="text-[14px] font-medium cursor-pointer">Value Proposition <br></NuxtLink>
+                        <div class="h-1"></div>
+                        <NuxtLink to="/about/data-ingestion" class="text-[14px] font-medium cursor-pointer">Data Ingestion <br></NuxtLink>
+                        <div class="h-1"></div>
+                        <NuxtLink to="/about/data-digestion" class="text-[14px] font-medium cursor-pointer">Data Digestion <br></NuxtLink>
+                        <div class="h-1"></div>
+                        <NuxtLink to="/about/knowledge-extraction" class="text-[14px] font-medium cursor-pointer">Knowledge Extraction <br></NuxtLink>
+                    </div>
                 </div>
 
                 <div class="">
                     <h2 class="text-[16px] font-medium text-[#F47625] py-4">RESOURCES</h2>
-                    <NuxtLink to="/about/people" class="text-[14px] font-medium text-[#666666] cursor-pointe">People <br></NuxtLink>
-                    <div class="h-1"></div>
-                    <NuxtLink to="/resources/careers" class="text-[14px] font-medium text-[#666666] cursor-pointe">Careers <br></NuxtLink>
-                    <div class="h-1"></div>
-                    <NuxtLink to="/resources/blog" class="text-[14px] font-medium text-[#666666] cursor-pointe">Blog <br></NuxtLink>
-                    <div class="h-1"></div>
-                    <NuxtLink to="/resources/publications" class="text-[14px] font-medium text-[#666666] cursor-pointe">Publications <br></NuxtLink>
+                    <div class="text-[#666666] dark:text-[#C8CCD2]">
+                        <NuxtLink to="/about/people" class="text-[14px] font-medium cursor-pointer">People <br></NuxtLink>
+                        <div class="h-1"></div>
+                        <NuxtLink to="/resources/careers" class="text-[14px] font-medium cursor-pointer">Careers <br></NuxtLink>
+                        <div class="h-1"></div>
+                        <NuxtLink to="/resources/blog" class="text-[14px] font-medium cursor-pointer">Blog <br></NuxtLink>
+                        <div class="h-1"></div>
+                        <NuxtLink to="/resources/publications" class="text-[14px] font-medium cursor-pointer">Publications <br></NuxtLink>
+                    </div>
                 </div>
 
                 <div class="">

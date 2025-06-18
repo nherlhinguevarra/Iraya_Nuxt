@@ -3,17 +3,17 @@
         <div class="w-full mx-auto flex flex-col sm:flex-row">
             <div class="lg:w-1/2 mt-10 lg:mt-10 xl:mt-40 pl-0 lg:pl-[1rem] xl:pl-[10rem]">
                 <img src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/05/Data-Atelier-logo-wordmark.webp" class="w-auto" alt="Image">
-                <h1 class="text-[18px] lg:text-[25px] xl:text-[40px] text-[#535353] font-light leading-[1.2] py-2 lg:py-2 xl:py-5">
+                <h1 class="text-[18px] lg:text-[25px] xl:text-[40px] text-[#535353] dark:text-white font-light leading-[1.2] py-2 lg:py-2 xl:py-5">
                     Transforming energy data for
                     <span class="text-[#F47625] text-[18px] lg:text-[30px] xl:text-[50px]">Sustainability,</span> 
                     powered by
                     <span class="text-[#2D918C] text-[18px] lg:text-[30px] xl:text-[50px]">Artificial Intelligence</span>
                 </h1>
-                <p class="text-[12px] lg:text-[16px] leading-snug mt-2 lg:mt-2 xl:mt-5 text-[#666666] font-medium">
+                <p class="text-[12px] lg:text-[16px] leading-snug mt-2 lg:mt-2 xl:mt-5 text-[#666666] dark:text-[#C8CCD2] font-medium">
                     How do you know which <strong>data can lead to a breakthrough?</strong>
                     Or which one to discard when most are archived the minute newer data comes along?
                 </p>
-                <p class="text-[12px] lg:text-[16px] leading-snug mt-2 lg:mt-2 xl:mt-5 text-[#666666] font-medium">
+                <p class="text-[12px] lg:text-[16px] leading-snug mt-2 lg:mt-2 xl:mt-5 text-[#666666] dark:text-[#C8CCD2] font-medium">
                     <strong>Deriving value from data gets more complex</strong>
                     with increased volume and format diversity. So, what do you do now? You ask for help from a
                     <strong>different kind of intelligence.</strong>
@@ -21,7 +21,7 @@
                 <h2 class="text-[#2D918C] text-[18px] lg:text-[20px] font-bold mt-2 lg:mt-2 xl:mt-5">
                     Artificial Intelligence.
                 </h2>
-                <h3 class="text-[14px] lg:text-[20px] xl:text-[24px] text-[#F47625] font-normal underline py-2 lg:py-2 xl:py-10">
+                <h3 class="text-[14px] lg:text-[20px] xl:text-[24px] text-[#F47625] font-normal underline py-2 lg:py-2 xl:py-10 cursor-pointer">
                     TALK TO AN EXPERT >
                 </h3>
             </div>
@@ -34,7 +34,7 @@
 
         <div class="w-full">
             <div class="w-full lg:w-[87%] xl:w-[46%] mx-auto">
-                <h1 class="text-[20px] lg:text-[40px] text-[#535353] font-medium text-center leading-[1.2]">
+                <h1 class="text-[20px] lg:text-[40px] text-[#535353] dark:text-[#C8CCD2] font-medium text-center leading-[1.2]">
                     <span class="text-[#2D918C] text-[25px] lg:text-[60px]">Amplify the value of you data</span>
                     with
                     <span class="text-[#F47625] text-[25px] lg:text-[60px]">Data Atelier</span> 
@@ -56,9 +56,9 @@
         </div>
     </div>
 
-    <div class="bg-[#F3F3F3] w-full">
+    <div class="bg-[#F3F3F3] dark:bg-[#282929] w-full">
         <div class="h-5 lg:h-10"></div>
-            <h1 class="text-[20px] lg:text-[35px] text-[#535353] font-medium text-center leading-[1.2]">
+            <h1 class="text-[20px] lg:text-[35px] text-[#535353] dark:text-[#C8CCD2] font-medium text-center leading-[1.2]">
                 <span class="text-[#2D918C] text-[25px] lg:text-[50px]">Our clients found value</span>
                 with
                 <span class="text-[#F47625] text-[25px] lg:text-[50px]">Data Atelier</span> 
@@ -70,7 +70,7 @@
                 <div class="w-1/2 text-center">
                     <h1 class="text-[#F47625] text-[35px] lg:text-[125px] font-bold">90%</h1>
                     <p class="text-[#2D918C] text-[14px] lg:text-[22px] font-bold">Time savings gained</p>
-                    <p class="text-[#666666] text-[12px] lg:text-[18px] font-medium leading-[1.2] lg:py-5 lg:px-5">
+                    <p class="text-[#666666] dark:text-[#C8CCD2] text-[12px] lg:text-[18px] font-medium leading-[1.2] lg:py-5 lg:px-5">
                         in data extraction and analysis in doing non-productive time analysis for 3 operating units.
                     </p>
                 </div>
@@ -86,7 +86,7 @@
                 <div class="w-1/2 text-center">
                     <h1 class="text-[#F47625] text-[35px] lg:text-[125px] font-bold">50%</h1>
                     <p class="text-[#2D918C] text-[14px] lg:text-[22px] font-bold">Efficiency gained</p>
-                    <p class="text-[#666666] text-[12px] lg:text-[18px] font-medium leading-[1.2] lg:py-5 lg:px-5">
+                    <p class="text-[#666666] dark:text-[#C8CCD2] text-[12px] lg:text-[18px] font-medium leading-[1.2] lg:py-5 lg:px-5">
                         in attribute extraction from documents and images to be used in data format standardization.
                     </p>
                 </div>
@@ -98,7 +98,7 @@
     <div class="h-10 lg:h-15"></div>
     <div>
         <div class="w-full lg:w-[80%] xl:w-[60%] mx-auto">
-            <h1 class="text-[20px] lg:text-[40px] text-[#535353] font-medium text-center leading-[1.2]">
+            <h1 class="text-[20px] lg:text-[40px] text-[#535353] dark:text-[#C8CCD2] font-medium text-center leading-[1.2]">
                 The earth is
                 <span class="text-[#F47625] text-[25px] lg:text-[60px]">evolving.</span> 
                 The
@@ -110,21 +110,21 @@
         <div class="w-full lg:w-[80%] xl:w-[60%] flex flex-col lg:flex-row mx-auto gap-5 px-5">
             <div class="lg:w-1/2 shadow-[0_10px_40px_rgba(0,0,0,0.3)]">
                 <img src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/05/DA1-1.png" class="w-full">
-                <p class="text-[15px] text-[#535353] p-4">
+                <p class="text-[15px] text-[#535353] dark:text-[#C8CCD2] p-4">
                     Rediscover old finds through a deep dive of all the exploration documents 
                     that are available to you and realize leads that were deemed uneconomical before
                 </p>
             </div>
             <div class="lg:w-1/2 shadow-[0_10px_40px_rgba(0,0,0,0.3)]">
                 <img src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/05/DA2-1.png" class="w-full">
-                <p class="text-[15px] text-[#535353] p-4">
+                <p class="text-[15px] text-[#535353] dark:text-[#C8CCD2] p-4">
                     Be equipped with all the knowledge and experiences from all your documents 
                     made accessible and integrable into the way you work 
                 </p>
             </div>
             <div class="lg:w-1/2 shadow-[0_10px_40px_rgba(0,0,0,0.3)]">
                 <img src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/05/DA3-1.png" class="w-full">
-                <p class="text-[15px] text-[#535353] p-4">
+                <p class="text-[15px] text-[#535353] dark:text-[#C8CCD2] p-4">
                     Unlocking the information from facillities are significant to energy 
                     transition and bringing energy to the market
                 </p>
@@ -134,17 +134,17 @@
     <div class="h-20"></div>
 
     <div class="px-5">
-        <div class="flex flex-col lg:flex-row bg-[#FFFFFF] mx-auto p-5 lg:p-10 pb-5 lg:pb-10 rounded-[50px] shadow-[0_10px_40px_rgba(0,0,0,0.3)] align-center w-fit">
+        <div class="flex flex-col lg:flex-row bg-[#FFFFFF] dark:bg-[#282929] mx-auto p-5 lg:p-10 pb-5 lg:pb-10 rounded-[50px] shadow-[0_10px_40px_rgba(0,0,0,0.3)] align-center w-fit">
             <div class="w-full lg:w-[400px] xl:w-[560px]">
                 <h1 class="text-[25px] lg:text-[40px] xl:text-[55px] text-[#2D918C] leading-[1.2] xl:leading-[1] font-medium pb-2 lg:pb-0">
-                    <span class="text-[#313131] text-[20px] lg:text-[35px]">Meet the</span><br>
+                    <span class="text-[#313131] dark:text-white text-[20px] lg:text-[35px]">Meet the</span><br>
                     Data Atelier
                 </h1>
-                <p class="text-[12px] lg:text-[14px] xl:text-[18px] leading-snug lg:mt-5 text-[#666666] font-medium w-full lg:w-[90%] pb-2 lg:pb-0">
+                <p class="text-[12px] lg:text-[14px] xl:text-[18px] leading-snug lg:mt-5 text-[#666666] dark:text-[#C8CCD2] font-medium w-full lg:w-[90%] pb-2 lg:pb-0">
                     The Data Atelier is a digital factory composed <strong>ipelines orchestration, data tracking,</strong> 
                     and <strong>monitoring services.</strong> 
                 </p>
-                <p class="text-[12px] lg:text-[14px] xl:text-[18px] leading-snug lg:mt-5 text-[#666666] font-medium w-full lg:w-[90%] pb-2 lg:pb-0">
+                <p class="text-[12px] lg:text-[14px] xl:text-[18px] leading-snug lg:mt-5 text-[#666666] dark:text-[#C8CCD2] font-medium w-full lg:w-[90%] pb-2 lg:pb-0">
                     It provides an <strong class="text-[#F47625]">intelligent engine</strong> 
                     that runs the internal processes and machine learning 
                     algorithms in production. When optimized, it drives the 
@@ -153,9 +153,9 @@
             </div>
             <div class="relative w-max mx-auto pt-5 pr-10">
                 <!-- Background Card -->
-                <div class="absolute top-0 lg:top-0 left-8 lg:left-7 w-[82%] lg:w-[90%] xl:w-[93%] h-[210px] lg:h-[300px] xl:h-[380px] bg-[#F476256E] rounded-2xl z-0 shadow-xl/30"></div>
+                <div class="absolute top-0 lg:top-0 left-8 lg:left-9 w-[82%] lg:w-[88%] xl:w-[89%] h-[210px] lg:h-[290px] xl:h-[370px] bg-[#F476256E] dark:bg-gradient-to-r from-[#F5A369] to-[#F47B25] rounded-2xl z-0 shadow-xl/30"></div>
                 <!-- Foreground Image Card -->
-                <div class="relative z-10 rounded-2xl overflow-hidden shadow-xl/30">
+                <div class="relative z-10 rounded-2xl overflow-hidden">
                     <img src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/05/image-3.png" alt="Large image" class="rounded-2xl w-[250px] lg:w-[350px] xl:w-[450px] h-auto">
                 </div>
             </div>
@@ -164,14 +164,14 @@
     <div class="h-10 lg:h-20"></div>
 
     <div class="w-full lg:w-[80%] xl:w-[60%] mx-auto px-5">
-        <h1 class="text-[20px] lg:text-[40px] text-[#535353] font-medium text-center leading-[1.2]">
+        <h1 class="text-[20px] lg:text-[40px] text-[#535353] dark:text-white font-medium text-center leading-[1.2]">
             <span class="text-[#F47625] text-[25px] lg:text-[60px]">8-step</span> 
             process to
         </h1>
         <h1 class="text-[20px] lg:text-[60px] text-[#2D918C] font-medium text-center leading-[1.2]">
             industrial artificial intelligence
         </h1>
-        <p class="text-center text-[12px] lg:text-[24px] leading-snug mt-2 lg:mt-5 text-[#666666] font-medium w-full">
+        <p class="text-center text-[12px] lg:text-[24px] leading-snug mt-2 lg:mt-5 text-[#666666] dark:text-[#C8CCD2] font-medium w-full">
             This proven process makes the Data Atelier one of the most powerful 
             instruments in managing data today. It has built and 
             assembled more than thousands of AI and AI management tools so 
@@ -190,7 +190,7 @@
                 <h1 class="text-[30px] lg:text-[40px] xl:text-[60px] text-[#2D918C] font-medium leading-[1.2]">
                     Get the Brochure
                 </h1>
-                <p class="lg:text-[18px] xl:text-[22px] mt-2 lg:mt-5 text-[#666666] font-medium leading-[1.7] w-full">
+                <p class="lg:text-[18px] xl:text-[22px] mt-2 lg:mt-5 text-[#666666] dark:text-[#C8CCD2] font-medium leading-[1.7] w-full">
                     With the Data Atelier, you have the power of machine 
                     learning and artificial intelligence in your hands. 
                     You customize your data the way you want it, how you want it when you want it.
