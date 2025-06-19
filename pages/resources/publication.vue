@@ -1,6 +1,8 @@
 <template>
-    <div class="bg-contain bg-no-repeat" style="background-image: url('/images/Iraya-bg-1.png')">
-        <div class="w-full lg:w-[85%] xl:w-[70%] px-5 lg:px-0 mx-auto">
+   <div class="absolute inset-0 bg-[url('https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/06/IRAYA-BACKGROUND.webp')] 
+    dark:bg-[url('https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/06/IRAYA-BG-DARK.png')]
+    bg-cover bg-top bg-no-repeat bg-fixed z-0"></div>
+        <div class="relative justify-center w-full h-full z-10 lg:w-[85%] xl:w-[70%] px-5 lg:px-0 mx-auto">
             <div class="h-5 lg:h-20"></div>
             <h1 class="text-[30px] lg:text-[40px] xl:text-[50px] text-[#666666] font-medium leading-[1.2]">
                 Check out
@@ -664,6 +666,5 @@
 
             </div>
         </div>
-    </div>
     <div class="h-10"></div>
 </template>
