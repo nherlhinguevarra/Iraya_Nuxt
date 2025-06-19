@@ -2,10 +2,12 @@
     <div class="relative w-screen max-w-full">
     <!-- Fixed background image -->
         <div class="absolute inset-0 bg-[url('https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/06/IRAYA-BACKGROUND.webp')] 
+        dark:bg-[url('https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/06/IRAYA-BG-DARK.png')]
         bg-cover bg-top bg-no-repeat bg-fixed z-0"></div>
 
-        <div class="relative z-10 flex w-full h-full">
-            <div class="w-1/4 mt-20 ml-30 pt-[6.5rem]">
+        <div class="relative z-10 flex flex-col lg:flex-row w-full h-full px-14 lg:px-4 py-10">
+            <!-- SIDE MENU -->
+            <div class="w-full mt-32 ml-32 lg:w-1/4 mb-10 hidden lg:block">
                 <h1 class="text-[#F47625] text-2xl mb-8 font-semibold">WHY IRAYA?</h1>
                 <ul>
                     <li><NuxtLink to="/about-us/value-proposition" class="text-[#535353] text-base font-medium mb-1 hover:text-[#000000]"
@@ -18,14 +20,16 @@
                     >Knowledge Extraction</NuxtLink></li>
                 </ul>
             </div>
-            <div class="w-3/4 mt-20 p-4">
-                <h1 class="text-[#535353] text-5xl leading-[3.75rem] mb-8 pr-40">
+
+            <!-- MAIN CONTENT -->
+            <div class="w-full mt-12 mb-12 lg:w-3/4">
+                <h1 class="text-[#535353] text-4xl lg:text-5xl leading-tight mb-10 pr-0 lg:pr-40">
                     <span class="text-[#666666]">Realize the </span>
                     <span class="text-[#F47625] font-bold">potential</span> 
                     of your <span class="text-[#2D918C] font-bold">unstructured data</span> 
                     with <span class="font-bold">KNOWLEDGE EXTRACTION</span>
                 </h1>
-                <p class="text-[#666666] text-base font-normal pr-44 mb-2">
+                <p class="text-[#666666] text-base font-normal mb-2 pr-0 lg:pr-44">
                     The data digestion provides easy access to information in a fast and efficient fashion; it is orders of 
                     magnitude faster than current manual approaches.
                     <br><br>
@@ -34,7 +38,7 @@
                     <br><br>
                     The knowledge extraction is done through many types of higher order analysis. Examples are:
                 </p>
-                <ul class="text-[#666666] text-base font-normal list-disc ml-10 mb-6 pr-44">
+                <ul class="text-[#666666] text-base font-normal list-disc ml-10 mb-6 pr-0 lg:pr-44">
                     <li>
                         Drilling history: A knowledge graph is used to visualize dependencies between wells and 
                         understand the drilling history in an area. The analysis is constructed by interrogating each well in the 
@@ -60,7 +64,7 @@
                         <img
                         src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/06/KnowledgdeExtraction.webp"
                         alt=""
-                        class="relative z-10 w-3/4 h-auto object-contain shadow-2xl rounded-lg"
+                        class="relative z-10 w-full lg:w-3/4 h-auto object-contain shadow-2xl rounded-lg"
                         />
                     </div>
                 </div>

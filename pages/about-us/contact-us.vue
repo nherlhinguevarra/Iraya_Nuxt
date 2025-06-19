@@ -1,11 +1,11 @@
 <template>
     <div class="h-5 lg:h-15"></div>
-    <div class="px-5 text-center pt-10 pb-0 lg:pt-20 lg:pb-5 w-full lg:w-[90%] xl:w-[60%] mx-auto">
+    <div class="px-5 text-center pt-10 pb-0 lg:pt-20 lg:pb-5 w-full lg:w-[90%] xl:w-[65%] mx-auto">
         <h1 class="text-[#666666] dark:text-white text-[40px] lg:text-[50px] xl:text-[60px] font-medium leading-[1.2]">
             Get in touch with  
             <span class="text-[#F47625] font-bold">Iraya </span>
             to
-            <span class="text-[#2D918C] font-bold">nlock the potential</span>
+            <span class="text-[#2D918C] font-bold">unlock the potential</span>
             of your Data
         </h1>
     </div>

@@ -2,11 +2,12 @@
     <div class="relative w-screen max-w-full">
     <!-- Fixed background image -->
         <div class="absolute inset-0 bg-[url('https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/06/IRAYA-BACKGROUND.webp')] 
+        dark:bg-[url('https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/06/IRAYA-BG-DARK.png')] 
         bg-cover bg-top bg-no-repeat bg-fixed z-0"></div>
 
         <div class="relative justify-center z-10 flex w-full h-full">
-            <div class="w-3/4 mt-20 p-4">
-                <h1 class="text-[#535353] text-5xl leading-[3.75rem] mb-8 pr-40">
+            <div class="w-3/4 mt-20 mb-20 p-4">
+                <h1 class="text-[#535353] text-4xl lg:text-5xl leading-[3rem] lg:leading-[3.75rem] mb-8 pr-0 lg:pr-40">
                     <span class="text-[#666666]">Combining</span>
                     <span class="text-[#F47625] font-bold"> Engineering</span> 
                     and <span class="text-[#2D918C] font-bold">Geoscience Expertise</span> 
@@ -25,12 +26,13 @@
                     <span class="text-[#F47625] font-bold">team</span>
                 </h2>
                 
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-2 px-36 bg-white">
+                <!-- MANAGEMENT TEAM INFO -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-2 px-4 sm:px-8 md:px-16 lg:px-36 bg-white dark:bg-transparent">
                     <!-- Card 1 -->
                     <div class="text-start mb-10">
                         <img src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/06/093_200120-kopi-1-2.png" 
-                        alt="Nina Marie Hernandez" class="mx-auto mb-4 shadow-[0_0_15px_rgba(0,0,0,0.1)] rounded-tl-[60px] rounded-br-[60px]
-                        max-w-sm max-h-sm object-cover"/>
+                        alt="Nina Marie Hernandez" class="mx-auto mb-4 dark:bg-neutral-900 shadow-[0_0_15px_rgba(0,0,0,0.1)] rounded-tl-[60px] rounded-br-[60px]
+                        w-full max-w-xs sm:max-w-sm h-auto object-cover"/>
                         <h3 class="font-bold text-center text-[#535353] text-xl">NINA MARIE HERNANDEZ</h3>
                         <p class="italic text-center text-[#535353] text-xl mb-4">CHIEF EXECUTIVE OFFICER</p>
                         <p class="text-[#535353] text-sm pl-3 pr-3">
@@ -47,8 +49,8 @@
                     <!-- Card 2 -->
                     <div class="text-start mb-10">
                         <img src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/06/FrancoisBaillard-2.png" 
-                        alt="Francois Baillard" class="mx-auto mb-4 shadow-[0_0_15px_rgba(0,0,0,0.1)] rounded-tl-[60px] rounded-br-[60px]
-                        max-w-sm max-h-sm object-cover" />
+                        alt="Francois Baillard" class="mx-auto mb-4 dark:bg-neutral-900 shadow-[0_0_15px_rgba(0,0,0,0.1)] rounded-tl-[60px] rounded-br-[60px]
+                        w-full max-w-xs sm:max-w-sm h-auto object-cover" />
                         <h3 class="font-bold text-center text-[#535353] text-xl">FRANCOIS BAILLARD</h3>
                         <p class="italic text-center text-[#535353] text-xl mb-4">CHIEF TECHNICAL OFFICER</p>
                         <p class="text-[#535353] text-sm pl-3 pr-3">
@@ -63,8 +65,8 @@
                     <!-- Card 3 -->
                     <div class="text-start mb-10">
                         <img src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/06/yf.webp" 
-                        alt="Yang Fairuz" class="mx-auto mb-4 shadow-[0_0_15px_rgba(0,0,0,0.1)] rounded-tl-[60px] rounded-br-[60px]
-                        max-w-sm max-h-sm object-cover" />
+                        alt="Yang Fairuz" class="mx-auto mb-4 dark:bg-neutral-900 shadow-[0_0_15px_rgba(0,0,0,0.1)] rounded-tl-[60px] rounded-br-[60px]
+                        w-full max-w-xs sm:max-w-sm h-auto object-cover" />
                         <h3 class="font-bold text-center text-[#535353] text-xl">YANG FAIRUZ</h3>
                         <p class="italic text-center text-[#535353] text-xl mb-4">CHIEF COMMERCIAL OFFICER</p>
                         <p class="text-[#535353] text-sm pl-3 pr-3">
@@ -77,12 +79,12 @@
                     </div>
 
                     <!-- Card 4 -->
-                    <div class="text-start mb-10">
+                    <div class="text-start">
                         <img src="https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/06/Ian-Panganiban-2.png" 
-                        alt="Ian Panganiban" class="mx-auto mb-4 shadow-[0_0_15px_rgba(0,0,0,0.1)] rounded-tl-[60px] rounded-br-[60px]
-                        max-w-sm max-h-sm object-cover" />
+                        alt="Ian Panganiban" class="mx-auto mb-4 dark:bg-neutral-900 shadow-[0_0_15px_rgba(0,0,0,0.1)] rounded-tl-[60px] rounded-br-[60px]
+                        w-full max-w-xs sm:max-w-sm h-auto object-cover" />
                         <h3 class="font-bold text-center text-[#535353] text-xl">IAN PANGANIBAN</h3>
-                        <p class="text-center italic text-gray-600 text-xl mb-4">HEAD OF CLOUD INFRASTRUCTURE</p>
+                        <p class="text-center italic text-[#535353] text-xl mb-4">HEAD OF CLOUD INFRASTRUCTURE</p>
                         <p class="text-[#535353] text-sm pl-3 pr-3">
                             Ian makes sure that geoscience Big Data is stored, processed, accessed and integrated effectively, 
                             using handy tools such as SQL, NoSQL, Django, Flask among others. He is also an expert WebGIS specialist.
@@ -90,9 +92,7 @@
                             He holds a degree in BSc Geodetic Engineering.
                         </p>
                     </div>
-
-                    </div>
-
+                </div>
             </div>
         </div>
     </div>

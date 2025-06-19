@@ -2,11 +2,12 @@
     <div class="relative w-screen max-w-full">
     <!-- Fixed background image -->
         <div class="absolute inset-0 bg-[url('https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/06/IRAYA-BACKGROUND.webp')] 
+        dark:bg-[url('https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/06/IRAYA-BG-DARK.png')] 
         bg-cover bg-top bg-no-repeat bg-fixed z-0"></div>
 
         <div class="relative justify-center z-10 flex w-full h-full">
-            <div class="w-3/4 mt-20 p-4">
-                <h1 class="text-center text-[#535353] text-5xl leading-[3.75rem] mb-8">
+            <div class="w-3/4 mt-20 mb-12 p-4">
+                <h1 class="text-center text-[#535353] text-4xl lg:text-5xl leading-10 lg:leading-[3.75rem] mb-8">
                     <span class="text-[#666666]">Building the</span>
                     <span class="text-[#F47625] font-bold"> future</span> 
                     of <span class="text-[#2D918C] font-bold">sustainable digital transformation</span> 
