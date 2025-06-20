@@ -1,9 +1,8 @@
 <template>
-    <div class="mx-auto my-auto earth 
-                w-[375px] h-[375px] 
-                md:w-[400px] md:h-[400px] 
-                lg:w-[590px] lg:h-[590px] 
-                xl:w-[800px] xl:h-[800px]">
+    <div class="w-full max-w-[375px] 
+                sm:max-w-[400px] lg:max-w-[590px] 
+                xl:max-w-[800px] aspect-square 
+                mx-auto my-auto earth">
     </div>
 </template>
 

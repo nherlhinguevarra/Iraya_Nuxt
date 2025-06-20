@@ -1,8 +1,9 @@
 <template>
-    <div class="px-2 lg:px-5 xl:px-0">
+    <div class="px-4 sm:px-6 lg:px-8 xl:px-0">
 
-        <div class="w-[95%] lg:w-[95%] xl:w-[80%] mx-auto flex flex-col sm:flex-row mt-10">
-            <div class="lg:w-2/4 mt-0 lg:mt-25 xl:mt-40 pl-0 lg:pl-0 xl:pl-[4rem]">
+        <div class="max-w-[95%] xl:max-w-[80%] mx-auto flex flex-col lg:flex-row items-center gap-8 mt-10">
+            <!-- LEFT -->
+            <div class="w-full lg:w-1/2 px-4 lg:px-0">
                 <h1 class="text-[20px] lg:text-[35px] xl:text-[56px] text-[#F47625] font-light">
                     Read the Earth <span class="text-[#2D918C] font-bold"> better</span>
                 </h1>
@@ -13,16 +14,17 @@
                     of the earth and surface facilities to find and produce 
                     the <strong>best sources of energy</strong>
                 </p>
-                <h3 class="text-[14px] xl:text-[18px] text-[#F47625] font-normal underline py-2 lg:py-5 xl:py-10">
+                <h3 class="text-[14px] xl:text-[18px] text-[#F47625] font-normal underline py-4 lg:py-5 xl:py-10">
                     READ ABOUT OUR TECHNOLOGY >
                 </h3>
             </div>
-            <div class="lg:w-3/5 py-4 lg:py-0">
+            <!-- EARTH -->
+            <div class="w-full lg:w-1/2 flex justify-center">
                 <Earth />
             </div>
         </div>
 
-        <div class="flex flex-col lg:flex-row bg-[#FFFFFF] dark:bg-[#282929] mx-auto sm:mt-[-80px] lg:mt-[-100px] xl:mt-[-250px] p-8 lg:p-10 pb-5 lg:pb-10 rounded-[50px] shadow-[0_10px_40px_rgba(0,0,0,0.3)] align-center w-fit z-1 relative">
+        <div class="flex flex-col lg:flex-row bg-[#FFFFFF] dark:bg-[#282929] mx-auto sm:mt-[-80px] lg:mt-[-100px] p-8 lg:p-10 pb-5 lg:pb-10 rounded-[50px] shadow-[0_10px_40px_rgba(0,0,0,0.3)] align-center w-fit z-1 relative">
             <div class="w-full lg:w-[400px] xl:w-[560px]">
                 <h1 class="text-[25px] lg:text-[40px] xl:text-[55px] text-[#F47625] lg:leading-[1.2] xl:leading-[60px] font-medium pb-2 lg:pb-0">
                     Iraya, 
