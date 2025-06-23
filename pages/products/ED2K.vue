@@ -37,13 +37,14 @@
     </div>
     <div class="h-5 lg:h-20"></div>
 
-    <div class="bg-contain bg-no-repeat px-5" style="background-image: url('/images/Iraya-bg-1.png')">
+    <div class="bg-contain bg-no-repeat px-5 bg-[url('https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/06/IRAYA-BACKGROUND.webp')] 
+                dark:bg-[url('https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/06/IRAYA-BG-DARK.png')]">
         <div class="h-15"></div>
         <div class="w-full lg:w-[90%] xl:w-[70%] mx-auto">
             <h1 class="text-[30px] lg:text-[40px] xl:text-[50px] text-[#467094] font-bold leading-[1.2] py-2 lg:py-2 xl:py-5">
                 The world of geoscience is here.
             </h1>
-            <p class="lg:text-[20px] text-[#535353] font-normal leading-[2] mx-auto">
+            <p class="lg:text-[20px] text-[#535353] dark:text-[#C8CCD2] font-normal leading-[2] mx-auto">
                 For over 70 years, The European Association of Geoscientists and Engineers (EAGE) has been responsible for publishing and 
                 gathering data on conferences and publications in the field of geoscience. The EarthDoc online database contains more than 
                 70,000 scientific publications and technical papers as well as conference proceedings. It has helped countless industry 
@@ -54,15 +55,15 @@
                 <img src="/images/eage_earthdoc.png" class="block mx-auto">
             </div>
 
-            <div class="flex flex-col lg:flex-row bg-[#FFFFFF] mx-auto p-8 lg:py-20 lg:px-10 rounded-[50px] shadow-[0_10px_40px_rgba(0,0,0,0.3)] align-center w-fit z-1 relative">
+            <div class="flex flex-col lg:flex-row bg-[#FFFFFF] dark:bg-[#282929] mx-auto p-8 lg:py-20 lg:px-10 rounded-[50px] shadow-[0_10px_40px_rgba(0,0,0,0.3)] align-center w-fit z-1 relative">
                 <div class="w-full lg:w-[400px] xl:w-[560px]">
-                    <h1 class="text-[25px] lg:text-[30px] xl:text-[35px] text-[#535353] leading-[1.1] font-light pb-2 lg:pb-0">
+                    <h1 class="text-[25px] lg:text-[30px] xl:text-[35px] text-[#535353] dark:text-white leading-[1.1] font-light pb-2 lg:pb-0">
                         Amplify your
                         <span class="text-[#467094] text-[30px] lg:text-[40px] xl:text-[50px] font-bold">EarthDoc</span>
                         experience with 
                         <span class="text-[#F47625] text-[30px] lg:text-[40px] xl:text-[50px] font-bold">ED2K</span>
                     </h1>
-                    <p class="text-[16px] lg:text-[16px] xl:text-[18px] lg:mt-5 xl:mt-10 text-[#535353] font-medium w-full lg:w-[90%] pb-2 lg:pb-0">
+                    <p class="text-[16px] lg:text-[16px] xl:text-[18px] lg:mt-5 xl:mt-10 text-[#535353] dark:text-[#C8CCD2] font-medium w-full lg:w-[90%] pb-2 lg:pb-0">
                         The 
                         <span class="text-[#F47625] font-semibold">ED2K</span> 
                         initiative, a collaboration between 
@@ -71,7 +72,7 @@
                         <span class="text-[#2D918C] font-semibold">European Association of Geoscientists and Engineers (EAGE),</span> 
                         has been launched.
                     </p>
-                    <p class="text-[14px] lg:text-[16px] xl:text-[18px] lg:mt-5 xl:mt-10 text-[#535353] font-medium w-full lg:w-[90%] pb-2 lg:pb-0">
+                    <p class="text-[14px] lg:text-[16px] xl:text-[18px] lg:mt-5 xl:mt-10 text-[#535353] dark:text-[#C8CCD2] font-medium w-full lg:w-[90%] pb-2 lg:pb-0">
                         With 
                         <span class="text-[#467094] font-semibold">EarthDoc's </span> 
                         repository of 70,000 scientific

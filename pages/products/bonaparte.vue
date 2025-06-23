@@ -33,16 +33,17 @@
         </div>
     </div>
 
-    <div class="bg-cover px-5" style="background-image: url('/images/iraya-bg-1.png')">
+    <div class="bg-cover px-5 bg-[url('https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/06/IRAYA-BACKGROUND.webp')] 
+                dark:bg-[url('https://demoiraya.bicoluni-busina.com/wp-content/uploads/2025/06/IRAYA-BG-DARK.png')]">
         <div class="h-5"></div>
         <div class="text-center">
-            <h1 class="text-[18px] lg:text-[30px] xl:text-[40px] text-[#313131] font-medium leading-[1.2] py-2 lg:py-2 xl:py-5">
+            <h1 class="text-[18px] lg:text-[30px] xl:text-[40px] text-[#313131] dark:text-white font-medium leading-[1.2] py-2 lg:py-2 xl:py-5">
                 Turing
                 <span class="text-[#F47625] text-[25px] lg:text-[40px] xl:text-[60px]">data</span> 
                 into
                 <span class="text-[#2D918C] text-[25px] lg:text-[40px] xl:text-[60px]">knowledge</span>
             </h1>
-            <h1 class="lg:text-[16px] xl:text-[20px] text-[#535353] font-normal leading-[2] w-full lg:w-[50%] mx-auto">
+            <h1 class="lg:text-[16px] xl:text-[20px] text-[#535353] dark:text-[#C8CCD2] font-normal leading-[2] w-full lg:w-[50%] mx-auto">
                 <span class="font-semibold text-[#F47625]">Iraya Energies </span>in Australia 
                 have processed over the Bonaparte Basin data
                 <span class="font-bold text-[#2D918C]"> using leading-edge Machine Learning (ML) and Artificial Intelligence (AI).</span>
@@ -51,22 +52,22 @@
         <div class="w-full lg:w-[95%] xl:w-[70%] mx-auto flex gap-2 lg:gap-5 xl:gap-5">
             <div class="w-1/3 text-center">
                 <h1 class="font-bold text-[40px] lg:text-[100px] xl:text-[125px] text-[#F47625]">70 <span class="text-[18px] lg:text-[30px] xl:text-[40px] text-[#2D918C]">years'</span></h1>
-                <p class="font-medium text-[16px] lg:text-[22px] text-[#666666] text-center">worth of data</p>
+                <p class="font-medium text-[16px] lg:text-[22px] text-[#666666] dark:text-[#C8CCD2] text-center">worth of data</p>
             </div>
             <div class="w-2/3 text-center">
                 <h1 class="font-bold text-[40px] lg:text-[100px] xl:text-[125px] text-[#F47625]">~270,000 <span class="text-[20px] lg:text-[18px] xl:text-[40px] text-[#2D918C]">pages</span></h1>
-                <p class="font-medium text-[14px] lg:text-[22px] text-[#666666] text-center">of unstructured datasets including PDFs, presentations, and documents.</p>
+                <p class="font-medium text-[14px] lg:text-[22px] text-[#666666] dark:text-[#C8CCD2] text-center">of unstructured datasets including PDFs, presentations, and documents.</p>
             </div>
         </div>
         <div class="h-5"></div>
         <div class="w-full lg:w-[95%] xl:w-[70%] mx-auto flex gap-0 lg:gap-5 xl:gap-5">
             <div class="w-1/3 text-center">
                 <h1 class="font-bold text-[35px] lg:text-[100px] xl:text-[125px] text-[#F47625]">440 <span class="text-[18px] lg:text-[30px] xl:text-[40px] text-[#2D918C]">wells</span></h1>
-                <p class="font-medium text-[16px] lg:text-[22px] text-[#666666] text-center">from 1959 to 2017</p>
+                <p class="font-medium text-[16px] lg:text-[22px] text-[#666666] dark:text-[#C8CCD2] text-center">from 1959 to 2017</p>
             </div>
             <div class="w-2/3 text-center">
                 <h1 class="font-bold text-[35px] lg:text-[100px] xl:text-[125px] text-[#F47625]">~254,000 <span class="text-[20px] lg:text-[18px] xl:text-[40px] text-[#2D918C]">images</span></h1>
-                <p class="font-medium text-[14px] lg:text-[22px] text-[#666666] text-center">of tables, maps, thin sections, cores, seismic and stratigraphic charts.</p>
+                <p class="font-medium text-[14px] lg:text-[22px] text-[#666666] dark:text-[#C8CCD2] text-center">of tables, maps, thin sections, cores, seismic and stratigraphic charts.</p>
             </div>
         </div>
         <div class="h-5 lg:h-15"></div>
@@ -75,7 +76,7 @@
                 A basin of bounty ripe for 
                 <span class="text-[#F47625]">discovery</span>
             </h1>
-            <h1 class="text-[14px] lg:text-[20px] xl:text-[25px] text-[#535353] font-normal leading-[2] mx-auto lg:mt-5">
+            <h1 class="text-[14px] lg:text-[20px] xl:text-[25px] text-[#535353] dark:text-[#C8CCD2] font-normal leading-[2] mx-auto lg:mt-5">
                 With <span class="font-bold text-[#F47625]">BONAPARTE 400</span> geoscientists and engineers can quickly analyze petrophysical, geophysical, geological, and
                 engineering data, giving them more room to make the right decisions as we transition to the right energy mix for the
                 future.
